@@ -5,7 +5,7 @@ import Socials from './Socials.astro';
 <div>
 
     <!-- Start: Terminal -->
-    <div class="mt-6 bg-black rounded-lg p-4 border border-gray-600 text-xs">
+    <div class="mt-6 rounded-lg p-4 border border-gray-600 text-xs">
 
         <div class="flex items-center mb-2">
             <span class="text-primary mr-2">$</span>
@@ -24,7 +24,19 @@ import Socials from './Socials.astro';
     <!-- End: Terminal -->
 
     <!-- Start: Social Links -->
-    <Socials />
-    <!-- End: Social Links -->
+  <div class="socials">
+  <a href="https://mdohr.space" class="social-link">
+    <span class="label">Blog</span>
+    <img src="quote-right-solid.svg" alt="Blog Icon" class="icon" />
+  </a>
+  <a href="https://github.com/mdohr07" class="social-link">
+    <span class="label">GitHub</span>
+    <img src="github-alt-brands-solid.svg" alt="GitHub Icon" class="icon" />
+  </a>
+  <a href="mailto:mdohr07@gmail.com" class="social-link">
+    <span class="label">Mail</span>
+    <img src="at-solid.svg" alt="Email Icon" class="icon" />
+  </a>
+</div>
 
 </div>
