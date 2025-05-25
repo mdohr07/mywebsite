@@ -1,162 +1,138 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 
-import Profile from '../components/Profile.astro';
-import Contact from '../components/Contact.astro';
+import Profile from "../components/Profile.astro";
+import Contact from "../components/Contact.astro";
 
-import ContentLink from '../components/ContentLink.astro';
-import ContentCode from '../components/ContentAbout.astro';
-import ContentProjects from '../components/ContentProjects.astro';
-import ContentLog from '../components/ContentLog.astro';
+import ContentLink from "../components/ContentLink.astro";
+import ContentCode from "../components/ContentAbout.astro";
+import ContentProjects from "../components/ContentProjects.astro";
+import ContentLog from "../components/ContentLog.astro";
 ---
 
 <Layout>
+  <!-- Start: Main Wrapper -->
+  <main
+    class="flex flex-col md:flex-row w-full max-w-full md:max-w-7xl standard-border overflow-hidden shadow-2xl relative mb-12 md:mb-4"
+  >
+    <!-- Start: Left / upper card -->
+    <div
+      class="left-card p-8 md:p-6 flex flex-col justify-between w-full md:w-2/5 border-right"
+    >
+      <Profile />
 
-    <!-- Start: Main Wrapper -->
-    <main class="flex flex-col md:flex-row w-full max-w-full md:max-w-7xl standard-border overflow-hidden shadow-2xl relative mb-12 md:mb-4">
+      <Contact />
+    </div>
+    <!-- End: Left / upper card -->
 
-        <!-- Start: Left / upper card -->
-        <div class="left-card p-8 md:p-6 flex flex-col justify-between w-full md:w-2/5 border-right">
+    <!-- Start: Right / lower card (yes 4/5 instead of 3/5) -->
+    <div class="w-full md:w-4/5 p-0">
+      <!-- Start: Inner wrapper -->
+      <div class="min-h-full h-[90vh] flex flex-col overflow-y-scroll">
+        <!-- Use hidden radio buttons to control the tabs -->
+        <div class="tab-controls">
+          <input type="radio" id="tab1" name="tabs" class="tab-radio" checked />
 
-            <Profile />
+          <input type="radio" id="tab2" name="tabs" class="tab-radio" />
 
-            <Contact />
+          <input type="radio" id="tab3" name="tabs" class="tab-radio" />
 
+          <!-- Start: Tab bar -->
+          <div class="tab-bar flex border-bottom sticky top-0 z-10">
+            <ContentLink contentId="tab1" contentName="about.css" />
 
-        </div>
-        <!-- End: Left / upper card -->
+            <ContentLink contentId="tab2" contentName="projects.md" />
 
-        <!-- Start: Right / lower card (yes 4/5 instead of 3/5) -->
-        <div class="w-full md:w-4/5 p-0">
+            <ContentLink contentId="tab3" contentName="log.js" />
+          </div>
+          <!-- End: Tab bar -->
 
-            <!-- Start: Inner wrapper -->
-            <div class="min-h-full h-[90vh] flex flex-col overflow-y-scroll">
-
-                <!-- Use hidden radio buttons to control the tabs -->
-                <div class="tab-controls">
-
-                    <input
-                        type="radio"
-                        id="tab1"
-                        name="tabs"
-                        class="tab-radio"
-                        checked
-                    />
-
-                    <input
-                        type="radio"
-                        id="tab2"
-                        name="tabs"
-                        class="tab-radio"
-                    />
-
-                                  <input
-                        type="radio"
-                        id="tab3"
-                        name="tabs"
-                        class="tab-radio"
-                        checked
-                    />
-
-                    <!-- Start: Tab bar -->
-                    <div class="tab-bar flex border-bottom sticky top-0 z-10">
-
-                        <ContentLink
-                            contentId="tab1"
-                            contentName="about.css"
-                        />
-
-                        <ContentLink
-                            contentId="tab2"
-                            contentName="projects.md"
-                        />
-
-                                 <ContentLink
-                            contentId="tab3"
-                            contentName="log.js"
-                        />
-
-                    </div>
-                    <!-- End: Tab bar -->
-
-                    <!-- Start: Tab content -->
-                    <div class="p-6 flex-grow overflow-y-auto">
-
-                        <!-- Start: About content -->
-                        <div id="content1" class="tab-content">
-                            <ContentCode />
-                        </div>
-                        <!-- End: About content -->
-
-                        <!-- Start: Projects content -->
-                        <div id="content2" class="tab-content">
-                            <ContentProjects />
-                        </div>
-
-                        <!--  
-                          <div id="content2" class="tab-content">
-                            <ContenLog />
-                        </div>
-                        -->
-                        
-                        <!-- End: Projects content -->
-
-                    </div>
-                    <!-- End: Tab content -->
-
-                </div>
-
+          <!-- Start: Tab content -->
+          <div class="p-6 flex-grow overflow-y-auto">
+            <!-- Start: About content -->
+            <div id="content1" class="tab-content">
+              <ContentCode />
             </div>
-            <!-- End: Inner wrapper -->
+            <!-- End: About content -->
 
+            <!-- Start: Projects content -->
+            <div id="content2" class="tab-content">
+              <ContentProjects />
+            </div>
+
+            <div id="content3" class="tab-content">
+              <ContentLog />
+            </div>
+
+            <!-- End: Projects content -->
+          </div>
+          <!-- End: Tab content -->
         </div>
-        <!-- End: Right / lower card -->
+      </div>
+      <!-- End: Inner wrapper -->
+    </div>
+    <!-- End: Right / lower card -->
+  </main>
+  <!-- End: Main Wrapper -->
 
-    </main>
-    <!-- End: Main Wrapper -->
-
-    <!-- Credits -->
-    <footer class="footer fixed md:absolute bottom-0 left-0 right-0 w-full text-center py-2">
-        Built with <a href="https://astro.build" title="Astro" target="_blank" class="text-primary hover:underline">Astro</a> by <a href="https://devidev.io/" target="_blank" title="devi|dev|io" class="text-primary hover:underline">devi|dev|io</a>
-    </footer>
-
+  <!-- Credits -->
+  <footer
+    class="footer fixed md:absolute bottom-0 left-0 right-0 w-full text-center py-2"
+  >
+    Built with <a
+      href="https://astro.build"
+      title="Astro"
+      target="_blank"
+      class="text-primary hover:underline">Astro</a
+    > by <a
+      href="https://devidev.io/"
+      target="_blank"
+      title="devi|dev|io"
+      class="text-primary hover:underline">devi|dev|io</a
+    >
+  </footer>
 </Layout>
 
 <style is:global>
+  /* Hide the radio buttons */
+  .tab-radio {
+    @apply absolute opacity-0 pointer-events-none;
+  }
 
-    /* Hide the radio buttons */
-    .tab-radio {
-        @apply absolute opacity-0 pointer-events-none;
-    }
+  /* Default state - hide all tab content */
+  .tab-content {
+    @apply hidden opacity-0;
+    transition: opacity 0.3s ease-in-out;
+  }
 
-    /* Default state - hide all tab content */
-    .tab-content {
-        @apply hidden opacity-0;
-        transition: opacity 0.3s ease-in-out;
-    }
+  /* Default state for tab links */
+  .tab-link {
+    @apply border-b-2 border-transparent bg-transparent;
+    transition: background-color 0.2s ease-in-out;
+  }
 
-    /* Default state for tab links */
-    .tab-link {
-        @apply border-b-2 border-transparent bg-transparent;
-        transition: background-color 0.2s ease-in-out;
-    }
+  /* When tab1 is checked, show content1 and highlight its tab */
+  #tab1:checked ~ * #content1 {
+    @apply block opacity-100;
+  }
 
-    /* When tab1 is checked, show content1 and highlight its tab */
-    #tab1:checked ~ * #content1 {
-        @apply block opacity-100;
-    }
+  #tab1:checked ~ .flex .tab-link:nth-child(1) {
+    @apply border-b-2 border-b-primary;
+  }
 
-    #tab1:checked ~ .flex .tab-link:nth-child(1) {
-        @apply border-b-2 border-b-primary;
-    }
+  /* When tab2 is checked, show content2 and highlight its tab */
+  #tab2:checked ~ * #content2 {
+    @apply block opacity-100;
+  }
 
-    /* When tab2 is checked, show content2 and highlight its tab */
-    #tab2:checked ~ * #content2 {
-        @apply block opacity-100;
-    }
+  #tab2:checked ~ .flex .tab-link:nth-child(2) {
+    @apply border-b-2 border-b-primary;
+  }
+  #tab3:checked ~ * #content3 {
+    @apply block opacity-100;
+  }
 
-    #tab2:checked ~ .flex .tab-link:nth-child(2) {
-        @apply border-b-2 border-b-primary;
-    }
-
+  #tab3:checked ~ .flex .tab-link:nth-child(3) {
+    @apply border-b-2 border-b-primary;
+  }
 </style>
