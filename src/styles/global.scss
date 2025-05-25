@@ -33,6 +33,18 @@ body, html {
   color: var(--metaColor)
 }
 
+main {
+  border: 2px solid var(--linkColor);
+}
+
+.bordered {
+  border: 2px solid var(--metaColor);;
+}
+
+.tab-bar {
+  background-color: var(--darkColor);
+}
+
 .pink-text, b, strong {
   color: #ff66a1;
   font-style: normal;
