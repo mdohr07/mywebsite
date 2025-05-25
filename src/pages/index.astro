@@ -7,6 +7,7 @@ import Contact from '../components/Contact.astro';
 import ContentLink from '../components/ContentLink.astro';
 import ContentCode from '../components/ContentAbout.astro';
 import ContentProjects from '../components/ContentProjects.astro';
+import ContentLog from '../components/ContentLog.astro';
 ---
 
 <Layout>
@@ -20,6 +21,7 @@ import ContentProjects from '../components/ContentProjects.astro';
             <Profile />
 
             <Contact />
+
 
         </div>
         <!-- End: Left / upper card -->
@@ -48,17 +50,30 @@ import ContentProjects from '../components/ContentProjects.astro';
                         class="tab-radio"
                     />
 
+                                  <input
+                        type="radio"
+                        id="tab3"
+                        name="tabs"
+                        class="tab-radio"
+                        checked
+                    />
+
                     <!-- Start: Tab bar -->
                     <div class="tab-bar flex border-bottom sticky top-0 z-10">
 
                         <ContentLink
                             contentId="tab1"
-                            contentName="about.ts"
+                            contentName="about.css"
                         />
 
                         <ContentLink
                             contentId="tab2"
                             contentName="projects.md"
+                        />
+
+                                 <ContentLink
+                            contentId="tab3"
+                            contentName="log.js"
                         />
 
                     </div>
@@ -77,6 +92,13 @@ import ContentProjects from '../components/ContentProjects.astro';
                         <div id="content2" class="tab-content">
                             <ContentProjects />
                         </div>
+
+                        <!--  
+                          <div id="content2" class="tab-content">
+                            <ContenLog />
+                        </div>
+                        -->
+                        
                         <!-- End: Projects content -->
 
                     </div>
