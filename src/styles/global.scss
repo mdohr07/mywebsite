@@ -33,12 +33,16 @@ body, html {
   color: var(--metaColor)
 }
 
-main {
-  border: 2px solid var(--linkColor);
+.standard-border {
+  border: 2px solid var(--metaColor);;
 }
 
-.bordered {
-  border: 2px solid var(--metaColor);;
+.border-right, label.tab-link {
+  border-right: 2px solid var(--metaColor);
+}
+
+.border-bottom {
+  border-bottom: 2px solid var(--metaColor);
 }
 
 .tab-bar {
