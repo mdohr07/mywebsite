@@ -51,6 +51,7 @@ html {
   font-size: 0.95rem;
   font-weight: normal;
   color: var(--metaColor);
+  cursor: url('/cursors/ufocursor.gif'), auto;
 }
 
 .standard-border {
@@ -112,6 +113,10 @@ ul li::before {
 
 a, a:hover, a:visited {
   color: var(--linkColor);
+}
+
+a, button, .tab-link {
+  cursor: url('/cursors/pointer.gif'), pointer;
 }
 
 .prompt {
