@@ -1,8 +1,9 @@
 ---
+import fs from 'node:fs/promises';
+import { marked } from 'marked';
 
+const markdown = await fs.readFile(new URL('../pages/log.md', import.meta.url), 'utf-8');
+const html = marked.parse(markdown);
 ---
 
-   test test test
-
-<script type="module" src="/javascript/script.js"></script>
-
+<article class="prose" set:html={html} />
