@@ -39,30 +39,35 @@ import ContentLog from "../components/ContentLog.astro";
 
           <!-- Start: Tab bar -->
           <div class="tab-bar flex border-bottom sticky top-0 z-10">
-            <ContentLink contentId="tab1" contentName="about.css" />
+            <ContentLink contentId="tab1" contentName="log.js" />
 
-            <ContentLink contentId="tab2" contentName="projects.md" />
+            <ContentLink contentId="tab2" contentName="about.css" />
 
-            <ContentLink contentId="tab3" contentName="log.js" />
+            <ContentLink contentId="tab3" contentName="projects.md" />
+
+            
           </div>
           <!-- End: Tab bar -->
 
           <!-- Start: Tab content -->
           <div class="p-6 flex-grow overflow-y-auto">
-            <!-- Start: About content -->
-            <div id="content1" class="tab-content">
+
+            <!-- Log content -->
+              <div id="content1" class="tab-content">
+              <ContentLog />
+            </div>
+
+            <!-- About content -->
+            <div id="content2" class="tab-content">
               <ContentCode />
             </div>
             <!-- End: About content -->
 
-            <!-- Start: Projects content -->
-            <div id="content2" class="tab-content">
+            <!-- Projects content -->
+            <div id="content3" class="tab-content">
               <ContentProjects />
             </div>
 
-            <div id="content3" class="tab-content">
-              <ContentLog />
-            </div>
 
             <!-- End: Projects content -->
           </div>
