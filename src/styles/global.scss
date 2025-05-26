@@ -76,6 +76,10 @@ em {
   font-style: normal;
 }
 
+.light-color-font {
+  color: var(--lightColor);
+}
+
 .terminal-box {
   font-family: monospace;
   padding: 1rem;
@@ -88,7 +92,7 @@ em {
 
 .now ul li::before {
   content: "> ";
-  color: var(--lightColor);
+  color: var(--metaColor);
 }
 
 .now a {
