@@ -8,6 +8,7 @@ import ContentLink from "../components/ContentLink.astro";
 import ContentCode from "../components/ContentAbout.astro";
 import ContentNow from "../components/ContentNow.astro";
 import ContentLog from "../components/ContentLog.astro";
+import ContentLinks from "../components/ContentLinks.astro"; // Neuer Import für Links-Tab
 ---
 
 <Layout>
@@ -32,28 +33,23 @@ import ContentLog from "../components/ContentLog.astro";
         <!-- Use hidden radio buttons to control the tabs -->
         <div class="tab-controls">
           <input type="radio" id="tab1" name="tabs" class="tab-radio" checked />
-
           <input type="radio" id="tab2" name="tabs" class="tab-radio" />
-
           <input type="radio" id="tab3" name="tabs" class="tab-radio" />
+          <input type="radio" id="tab4" name="tabs" class="tab-radio" /> <!-- Neuer Tab -->
 
           <!-- Start: Tab bar -->
           <div class="tab-bar flex border-bottom sticky top-0 z-10">
             <ContentLink contentId="tab1" contentName="log.md" />
-
             <ContentLink contentId="tab2" contentName="about.css" />
-
             <ContentLink contentId="tab3" contentName="now.md" />
-
-            
+            <ContentLink contentId="tab4" contentName="links.html" /> <!-- Neuer Tab -->
           </div>
           <!-- End: Tab bar -->
 
           <!-- Start: Tab content -->
           <div class="p-6 flex-grow overflow-y-auto">
-
             <!-- Log content -->
-              <div id="content1" class="tab-content">
+            <div id="content1" class="tab-content">
               <ContentLog />
             </div>
 
@@ -65,9 +61,13 @@ import ContentLog from "../components/ContentLog.astro";
             <!-- Projects now -->
             <div id="content3" class="tab-content">
               <ContentNow />
-            </div
+            </div>
 
-            <!-- End: Projects content -->
+            <!-- Links content -->
+            <div id="content4" class="tab-content">
+              <ContentLinks />
+            </div>
+            <!-- End: Links content -->
           </div>
           <!-- End: Tab content -->
         </div>
@@ -114,28 +114,35 @@ import ContentLog from "../components/ContentLog.astro";
     transition: background-color 0.2s ease-in-out;
   }
 
-  /* When tab1 is checked, show content1 and highlight its tab */
+  /* Tab 1 */
   #tab1:checked ~ * #content1 {
     @apply block opacity-100;
   }
-
   #tab1:checked ~ .flex .tab-link:nth-child(1) {
     @apply border-b-2 border-b-primary;
   }
 
-  /* When tab2 is checked, show content2 and highlight its tab */
+  /* Tab 2 */
   #tab2:checked ~ * #content2 {
     @apply block opacity-100;
   }
-
   #tab2:checked ~ .flex .tab-link:nth-child(2) {
     @apply border-b-2 border-b-primary;
   }
+
+  /* Tab 3 */
   #tab3:checked ~ * #content3 {
     @apply block opacity-100;
   }
-
   #tab3:checked ~ .flex .tab-link:nth-child(3) {
+    @apply border-b-2 border-b-primary;
+  }
+
+  /* Tab 4 */
+  #tab4:checked ~ * #content4 {
+    @apply block opacity-100;
+  }
+  #tab4:checked ~ .flex .tab-link:nth-child(4) {
     @apply border-b-2 border-b-primary;
   }
 </style>

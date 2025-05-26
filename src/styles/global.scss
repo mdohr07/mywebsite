@@ -30,6 +30,15 @@ h6 {
   color: var(--headingColor);
 }
 
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  content: '# ';
+}
+
 p,
 ul {
   margin-bottom: 1rem;
@@ -61,6 +70,10 @@ label.tab-link {
   background-color: var(--darkColor);
 }
 
+.tab-link h2::before {
+  content: " ";
+}
+
 .pink-text,
 b,
 strong {
@@ -86,16 +99,18 @@ em {
   border-radius: 0.5rem;
 }
 
-.now ul li {
+ul li {
   list-style-type: none;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
 }
 
-.now ul li::before {
+ul li::before {
   content: "> ";
   color: var(--metaColor);
 }
 
-.now a {
+a, a:hover, a:visited {
   color: var(--linkColor);
 }
 
