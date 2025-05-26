@@ -1,31 +1,32 @@
 ---
-import { Picture } from 'astro:assets';
-import ProfilePicture from '../assets/mblip-head.png';
+import { Picture } from "astro:assets";
+import ProfilePicture from "../assets/mblip-head.png";
 
 const profile = {
-  name: 'mdohr07',
-  title: 'Frontend Developer',
-  location: 'Bremen, Germany',
+  name: "mdohr07",
+  title: "Frontend Developer",
+  location: "Bremen, Germany",
 };
 ---
 
-<div class="flex flex-col gap-6 items-center text-center sm:items-start sm:text-left">
-
+<div
+  class="flex flex-col gap-6 items-center text-center sm:items-start sm:text-left"
+>
   <div class="flex flex-col sm:flex-row gap-4 sm:items-center">
-
     <Picture
       src={ProfilePicture}
-      formats={['png']}
+      formats={["png"]}
       width={96}
       height={96}
-      alt={'Profile picture ' + profile.name}
+      alt={"Profile picture " + profile.name}
       title={profile.name}
       class="w-24 h-24 object-cover standard-border mx-auto sm:mx-0"
     />
 
     <div>
-
-      <h1 class="text-2xl font-extrabold mb-1 inline-block relative text-heading">
+      <h1
+        class="text-2xl font-extrabold mb-1 inline-block relative text-heading"
+      >
         {profile.name}
       </h1>
 
@@ -33,7 +34,9 @@ const profile = {
         {profile.title}
       </p>
 
-      <p class="flex items-center justify-center sm:justify-start text-sm text-meta">
+      <p
+        class="flex items-center justify-center sm:justify-start text-sm text-meta"
+      >
         <svg
           class="-mt-0.5 inline mr-2"
           fill="none"
@@ -46,47 +49,32 @@ const profile = {
           width="14"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-          <circle cx="12" cy="10" r="3" />
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+          <circle cx="12" cy="10" r="3"></circle>
         </svg>
         {profile.location}
       </p>
-
     </div>
-
   </div>
 
   <!-- h-card -->
   <div class="text-meta max-w-xl mx-auto sm:mx-0">
-
     <h2 class="text-heading">Greetings, Traveler!</h2>
 
     <p lang="en" class="leading-relaxed mt-2 mb-4 standard-text">
-      Welcome aboard my intergalactic outpost, orbiting around the stars and retro internet vibes. <i>☆彡</i>
+      Welcome aboard my intergalactic outpost, orbiting around the stars and
+      retro internet vibes. <i>☆彡</i>
     </p>
+    ----------
 
-    <div id="hcard-mdohr07" class="mt-4">
-      <p>
-        &gt; <span class="font-semibold">CONTACT FREQUENCIES</span><br />
-        &nbsp;&nbsp;URL:&nbsp;&nbsp;
-        <a
-          href="https://mdohr.space"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="text-link hover:underline"
-          >https://mdohr.space</a
-        ><br />
-        &nbsp;&nbsp;Email:&nbsp;&nbsp;mdohr07(at)gmail.com<br />
-        &nbsp;&nbsp;GitHub:&nbsp;
-        <a
-          href="https://github.com/mdohr07"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="text-link hover:underline"
-          >https://github.com/mdohr07</a
-        >
+    <div class="terminal-box">
+      <span class="prompt">user@mdohr07:~$</span> whoami<br />
+      <p class="output">creative web explorer — INFJ(A), sci-fi enthusiast</p>
+
+      <span class="prompt">user@mdohr07:~$</span> history | grep "start"<br />
+      <p class="output">
+        coding since 1999 — inspired by retro games & the old web
       </p>
     </div>
   </div>
-
 </div>

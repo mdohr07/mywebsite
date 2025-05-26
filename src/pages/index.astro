@@ -6,7 +6,7 @@ import Contact from "../components/Contact.astro";
 
 import ContentLink from "../components/ContentLink.astro";
 import ContentCode from "../components/ContentAbout.astro";
-import ContentProjects from "../components/ContentProjects.astro";
+import ContentNow from "../components/ContentNow.astro";
 import ContentLog from "../components/ContentLog.astro";
 ---
 
@@ -39,11 +39,11 @@ import ContentLog from "../components/ContentLog.astro";
 
           <!-- Start: Tab bar -->
           <div class="tab-bar flex border-bottom sticky top-0 z-10">
-            <ContentLink contentId="tab1" contentName="log.js" />
+            <ContentLink contentId="tab1" contentName="log.md" />
 
             <ContentLink contentId="tab2" contentName="about.css" />
 
-            <ContentLink contentId="tab3" contentName="projects.md" />
+            <ContentLink contentId="tab3" contentName="now.md" />
 
             
           </div>
@@ -63,9 +63,9 @@ import ContentLog from "../components/ContentLog.astro";
             </div>
             <!-- End: About content -->
 
-            <!-- Projects content -->
+            <!-- Projects now -->
             <div id="content3" class="tab-content">
-              <ContentProjects />
+              <ContentNow />
             </div>
 
 

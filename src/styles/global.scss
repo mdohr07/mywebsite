@@ -20,24 +20,36 @@
   --codeColor: #ff66a1;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
-    color: var(--headingColor);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  color: var(--headingColor);
 }
 
-body, html {
+p,
+ul {
+  margin-bottom: 1rem;
+}
+
+body,
+html {
   background-color: var(--darkColor);
   font-family: monospace;
   font-size: 0.95rem;
   font-weight: normal;
-  color: var(--metaColor)
+  color: var(--metaColor);
 }
 
 .standard-border {
-  border: 2px solid var(--metaColor);;
+  border: 2px solid var(--metaColor);
 }
 
-.border-right, label.tab-link {
+.border-right,
+label.tab-link {
   border-right: 2px solid var(--metaColor);
 }
 
@@ -49,15 +61,46 @@ body, html {
   background-color: var(--darkColor);
 }
 
-.pink-text, b, strong {
+.pink-text,
+b,
+strong {
   color: #ff66a1;
   font-style: normal;
   font-weight: normal;
 }
 
-.blue-text, i, em {
+.blue-text,
+i,
+em {
   color: var(--metaBlue);
   font-style: normal;
+}
+
+.terminal-box {
+  font-family: monospace;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.now ul li {
+  list-style-type: none;
+}
+
+.now ul li::before {
+  content: "> ";
+  color: var(--lightColor);
+}
+
+.now a {
+  color: var(--linkColor);
+}
+
+.prompt {
+  color: var(--lightColor);
+  color: var();
+}
+.output {
+  padding-left: 1rem;
 }
 
 .socials {
@@ -80,7 +123,7 @@ a.social-link {
   background-color: #ffcc00; /* Gelb */
   color: var(--darkColor);
   height: 24px;
-  padding: 0.5rem;
+  padding: 3px 5px;
   display: flex;
   align-items: center;
 }
@@ -94,6 +137,23 @@ a.social-link {
   width: 24px;
   padding: 3px;
   display: flex;
+}
+
+.log-entries {
+  margin-top: 1rem;
+}
+
+.log-entries p {
+  line-height: 2rem;
+}
+
+.log-entries p::before {
+  content: "$ ";
+  color: var(--linkColor);
+}
+
+.log-entries strong {
+  margin-right: 1rem;
 }
 
 footer .footer {

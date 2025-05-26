@@ -8,8 +8,6 @@ export default defineConfig({
     output: 'static',
     trailingSlash: 'always',
     site: 'https://devidev.io',
-
-    // Single page, no prefetch needed
     prefetch: false,
 
     integrations: [
@@ -38,7 +36,7 @@ export default defineConfig({
                         drop_debugger: true,
                     }
                 }
-            }
+            },        
         })
     ]
 });
