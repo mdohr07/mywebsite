@@ -6,7 +6,7 @@ const markdown = await fs.readFile(new URL('../pages/now.md', import.meta.url), 
 const html = marked.parse(markdown);
 ---
 --------------------
-<h1># Now</h1>
+<h1>Now</h1>
 -------------------- <br>
 
 <article class="now" set:html={html} />

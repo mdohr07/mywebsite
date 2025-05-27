@@ -127,6 +127,12 @@ a, button, .tab-link {
   padding-left: 1rem;
 }
 
+.badges {
+  display: inline-flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 .socials {
   display: flex;
   align-content: space-around;
