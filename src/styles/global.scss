@@ -40,6 +40,10 @@ h6::before {
   content: '# ';
 }
 
+h1.text-heading::before {
+  content: '';
+}
+
 p,
 ul {
   margin-bottom: 1rem;
@@ -184,15 +188,20 @@ a.social-link {
   align-items: center;
 }
 
-.icon {
+.icon{
   background-color: var(--metaColor);
   color: var(--darkColor);
   display: flex;
   align-items: center;
-  height: 24px;
-  width: 24px;
-  padding: 3px;
+  min-height: 24px;
+  min-width: 24px;
+  padding: 5px;
   display: flex;
+}
+
+img.icon {
+  width:23px;
+  height: 23px;
 }
 
 .log-entries {
@@ -226,5 +235,9 @@ footer span {
 @media (max-width: 768px) {
   .tab-bar {
     border-top: 2px solid var(--metaColor);
+  }
+
+  .label {
+    font-size: small;
   }
 }
