@@ -82,10 +82,31 @@ label.tab-link {
 
 .pink-text,
 b,
-strong {
-  color: #ff66a1;
+strong,
+th {
+  color: var(--codeColor);
   font-style: normal;
   font-weight: normal;
+}
+
+table td {
+  padding: 0.2rem;
+  border: none;
+}
+
+th {
+  text-align: left;
+  padding: 0.2rem;
+  padding-top: 1.5rem;;
+  border: none;
+}
+
+th::before {
+  content: "[ ";
+}
+
+th::after {
+  content: " ]";
 }
 
 .blue-text,

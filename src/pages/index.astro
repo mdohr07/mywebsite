@@ -9,6 +9,7 @@ import ContentCode from "../components/ContentAbout.astro";
 import ContentNow from "../components/ContentNow.astro";
 import ContentLog from "../components/ContentLog.astro";
 import ContentLinks from "../components/ContentLinks.astro"; // Neuer Import für Links-Tab
+import ContentSiteConfig from "../components/ContentSiteConfig.astro";
 ---
 
 <Layout>
@@ -35,14 +36,16 @@ import ContentLinks from "../components/ContentLinks.astro"; // Neuer Import fü
           <input type="radio" id="tab1" name="tabs" class="tab-radio" checked />
           <input type="radio" id="tab2" name="tabs" class="tab-radio" />
           <input type="radio" id="tab3" name="tabs" class="tab-radio" />
-          <input type="radio" id="tab4" name="tabs" class="tab-radio" /> <!-- Neuer Tab -->
+          <input type="radio" id="tab4" name="tabs" class="tab-radio" />
+          <input type="radio" id="tab5" name="tabs" class="tab-radio" />
 
           <!-- Start: Tab bar -->
           <div class="tab-bar flex border-bottom sticky top-0 z-10">
             <ContentLink contentId="tab1" contentName="log.md" />
             <ContentLink contentId="tab2" contentName="about.css" />
             <ContentLink contentId="tab3" contentName="now.md" />
-            <ContentLink contentId="tab4" contentName="links.html" /> <!-- Neuer Tab -->
+            <ContentLink contentId="tab4" contentName="site.config" />
+            <ContentLink contentId="tab5" contentName="links.html" />
           </div>
           <!-- End: Tab bar -->
 
@@ -63,10 +66,16 @@ import ContentLinks from "../components/ContentLinks.astro"; // Neuer Import fü
               <ContentNow />
             </div>
 
-            <!-- Links content -->
+            <!-- config/specs content -->
             <div id="content4" class="tab-content">
+              <ContentSiteConfig />
+            </div>
+
+            <!-- Links content -->
+            <div id="content5" class="tab-content">
               <ContentLinks />
             </div>
+
             <!-- End: Links content -->
           </div>
           <!-- End: Tab content -->
@@ -77,7 +86,6 @@ import ContentLinks from "../components/ContentLinks.astro"; // Neuer Import fü
     <!-- End: Right / lower card -->
   </main>
   <!-- End: Main Wrapper -->
-
 </Layout>
 
 <style is:global>
@@ -129,4 +137,12 @@ import ContentLinks from "../components/ContentLinks.astro"; // Neuer Import fü
   #tab4:checked ~ .flex .tab-link:nth-child(4) {
     @apply border-b-2 border-b-primary;
   }
+  
+/* Tab 5 */
+#tab5:checked ~ * #content5 {
+  @apply block opacity-100;
+}
+#tab5:checked ~ .flex .tab-link:nth-child(5) {
+  @apply border-b-2 border-b-primary;
+}
 </style>
