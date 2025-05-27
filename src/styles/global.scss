@@ -195,4 +195,15 @@ footer .footer {
   background-color: transparent;
   text-align: center;
   margin-top: 1rem;
+  position: static;
+}
+
+footer span {
+  background-color: var(--darkColor);;
+}
+
+@media (max-width: 768px) {
+  .tab-bar {
+    border-top: 2px solid var(--metaColor);
+  }
 }
