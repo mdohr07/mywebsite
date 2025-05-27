@@ -6,7 +6,7 @@ const markdown = await fs.readFile(new URL('../pages/log.md', import.meta.url), 
 const html = marked.parse(markdown);
 ---
 --------------------
-<h1># Captain's Log</h1>
+<h1>Captain's Log</h1>
 -------------------- <br>
 
 <article class="log-entries" set:html={html} />

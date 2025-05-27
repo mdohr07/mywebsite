@@ -1,5 +1,6 @@
 ---
 import '../styles/global.scss';
+import Footer from "../components/Footer.astro";
 
 // Base domain URL without trailing slash
 const domainBaseURL = 'https://devidev.io';
@@ -128,10 +129,15 @@ const dublinCore = {
 
     </head>
 
-    <body class="min-h-[100vh] flex items-center justify-center p-4">
+    <div class="min-h-[100vh] flex items-center justify-center p-4">
         <slot />
+     
+        <Footer />
+        
+        
         
      <!-- Credits -->
+      
     </body>
 
 </html>

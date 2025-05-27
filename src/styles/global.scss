@@ -28,6 +28,7 @@ h5,
 h6 {
   font-weight: normal;
   color: var(--headingColor);
+  margin: 0.5rem 0rem 0.5rem 0;
 }
 
 h1::before,
@@ -69,6 +70,10 @@ label.tab-link {
 
 .tab-bar {
   background-color: var(--darkColor);
+}
+
+.tab-link h2 {
+  margin: 0;
 }
 
 .tab-link h2::before {
