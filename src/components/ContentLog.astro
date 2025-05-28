@@ -1,12 +1,10 @@
 ---
-import fs from 'node:fs/promises';
-import { marked } from 'marked';
-
-const markdown = await fs.readFile(new URL('../pages/log.md', import.meta.url), 'utf-8');
-const html = marked.parse(markdown);
+import Log from '../content/log.md';
 ---
 --------------------
 <h1>Captain's Log</h1>
 -------------------- <br>
 
-<article class="log-entries" set:html={html} />
+<article class="log-entries">
+  <Log />
+</article>
