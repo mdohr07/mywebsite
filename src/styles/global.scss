@@ -65,7 +65,9 @@ html {
 
 .border-right,
 label.tab-link {
+  border-top: 0px;
   border-right: 2px solid var(--metaColor);
+  border-bottom: 1px solid var(--metaColor);
 }
 
 .border-bottom {
@@ -91,6 +93,10 @@ th {
   color: var(--codeColor);
   font-style: normal;
   font-weight: normal;
+}
+
+code {
+  color: var(--lightColor);
 }
 
 table td {
@@ -235,9 +241,11 @@ footer span {
 @media (max-width: 768px) {
   .tab-bar {
     border-top: 2px solid var(--metaColor);
+    flex-wrap: wrap;
   }
 
   .label {
     font-size: small;
   }
+
 }
