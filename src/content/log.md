@@ -1,6 +1,6 @@
 **31.05.2025 12:26** I was cycling lazily but still flared up my Urticaria
 
-**30.05.2025 19:06** Haven't had it in me today to look actually study
+**30.05.2025 19:06** Haven't had it in me today to actually study
 
 **30.05.2025 16:43** Feeling melancholic, distraction through educational YouTube videos
 
