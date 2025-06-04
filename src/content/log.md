@@ -1,3 +1,5 @@
+**04.06.2025 16:08** Note to self: continue watching at 14:50
+
 **04.06.2025 15:50** {/* Comments in react */}
 
 **04.06.2025 13:05** Solved merge conflicts
