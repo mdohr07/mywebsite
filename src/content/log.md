@@ -1,3 +1,5 @@
+**05.06.2025 11:18** Let's just put 'await' in front of stuff if stuff doesn't work
+
 **04.06.2025 16:08** Note to self: continue watching at 14:50
 
 **04.06.2025 15:50** {/* Comments in react */}
