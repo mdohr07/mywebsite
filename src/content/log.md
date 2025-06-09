@@ -1,3 +1,5 @@
+**09.06.2025 18:48** This weekend I installed Linix on my old laptop :3
+
 **06.06.2025 15:46** Note to self: continue watching at ~29 minutes
 
 **05.06.2025 15:59** Note to self: continue watching at 24 minutes
