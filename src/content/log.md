@@ -1,3 +1,5 @@
+**20.06.2025 14:48** Got a new hair cut - now it is short again
+
 **17.06.2025 10:26** (=.=)...zzz 
 
 **10.06.2025 16:35** React at home, Angular in class ^_^;
