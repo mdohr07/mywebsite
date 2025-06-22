@@ -1,3 +1,5 @@
+**22.06.2025 21:02** So I joined cara.app today. I wonder how that will go.
+
 **21.06.2025 20:39** I was actually drawing today :o
 
 **20.06.2025 14:48** Got a new hair cut - now it is short again
