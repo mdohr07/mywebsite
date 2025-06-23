@@ -1,3 +1,5 @@
+**23.06.2025 17:16** Some contacts might not be worth clinging to...
+
 **22.06.2025 21:02** So I joined cara.app today. I wonder how that will go.
 
 **21.06.2025 20:39** I was actually drawing today :o
