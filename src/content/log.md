@@ -1,3 +1,5 @@
+**25.06.2025 20:02** Something made my Urticaria flare up a lot today -_-
+
 **24.06.2025 21:38** This week is... different. what will tomorrow bring?
 
 **23.06.2025 17:16** Some contacts might not be worth clinging to...
