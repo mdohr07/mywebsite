@@ -14,7 +14,7 @@
 
 **10.06.2025 16:35** React at home, Angular in class ^_^;
 
-**09.06.2025 18:48** This weekend I installed Linix on my old laptop :3
+**09.06.2025 18:48** This weekend I installed Linux on my old laptop :3
 
 **06.06.2025 15:46** Note to self: continue watching at ~29 minutes
 
