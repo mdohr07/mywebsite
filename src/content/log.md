@@ -1,3 +1,5 @@
+**26.06.2025 20:41** almost the weekend - yaaaay :3
+
 **25.06.2025 20:02** Something made my Urticaria flare up a lot today -_-
 
 **24.06.2025 21:38** This week is... different. what will tomorrow bring?
