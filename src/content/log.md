@@ -1,3 +1,5 @@
+**27.06.2025 21:09** Team building day went fine, but I really need to refuel my energy levels now
+
 **26.06.2025 20:41** almost the weekend - yaaaay :3
 
 **25.06.2025 20:02** Something made my Urticaria flare up a lot today -_-
