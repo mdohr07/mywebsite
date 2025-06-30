@@ -1,3 +1,5 @@
+**30.06.2025 15:30** Updated the now-page :3
+
 **28.06.2025 19:35** How is it almost July? When did this happen?!
 
 **27.06.2025 21:09** Team building day went fine, but I really need to refuel my energy levels now

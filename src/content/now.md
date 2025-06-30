@@ -3,7 +3,7 @@ This is a [now page](https://nownownow.com/about), and if you have your own site
 ```
 +------------------------+
 | Last updated:          |
-|   May 26th, 2025       |
+|   June 30th, 2025      |
 +------------------------+
 ```
 <br>
@@ -15,9 +15,12 @@ This is a [now page](https://nownownow.com/about), and if you have your own site
 - Becoming a better learner **and thinker**
 - This website
 - Little JavaScript project(s)
+- React
+- TypeScript
 
 ## Retraining
 
+- Angular
 - C# with .NET
 - Virtual Machine
 - Networks and operating systems
@@ -30,13 +33,17 @@ This is a [now page](https://nownownow.com/about), and if you have your own site
 
 ## Watching
 
-- [Bee and Puppycat](https://www.imdb.com/de/title/tt4163486/)
+- [Castlevania Nocturne](https://www.netflix.com/de/title/81436901)
+- ~~[The Ultimatum - Queer Love](https://www.netflix.com/de/title/81598495)~~
+- ~~[Queer Eye](https://www.netflix.com/de/title/80160037)~~
+- ~~[Bee and Puppycat](https://www.imdb.com/de/title/tt4163486/)~~
 - [The Big Bang Theory](https://www.netflix.com/de/title/70143830)
 - ~~[Young Sheldon](https://www.netflix.com/de-en/title/80192612)~~
 - ~~[Ranma 1/2](https://www.netflix.com/de/title/81171925)~~
 
 ## Playing
 
+- [The Elder Scrolls Online](https://www.elderscrollsonline.com/de/home)
 - Klonoa
 - [Metroid II](https://www.nintendo.com/de-de/Spiele/Game-Boy/Metroid-II-Return-of-Samus-275737.html)
 - ~~[Animal Crossing: New Horizons](https://www.nintendo.com/us/store/products/animal-crossing-new-horizons-switch/)~~
