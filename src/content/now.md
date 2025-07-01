@@ -34,7 +34,7 @@ This is a [now page](https://nownownow.com/about), and if you have your own site
 ## Watching
 
 - [Castlevania Nocturne](https://www.netflix.com/de/title/81436901)
-- ~~[The Ultimatum - Queer Love](https://www.netflix.com/de/title/81598495)~~
+- [The Ultimatum - Queer Love](https://www.netflix.com/de/title/81598495)
 - ~~[Queer Eye](https://www.netflix.com/de/title/80160037)~~
 - ~~[Bee and Puppycat](https://www.imdb.com/de/title/tt4163486/)~~
 - [The Big Bang Theory](https://www.netflix.com/de/title/70143830)
