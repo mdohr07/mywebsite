@@ -1,3 +1,5 @@
+**04.07.2025 19:16** The last two days were pretty exhusting to me. Glad about the weekend!
+
 **03.07.2025 19:26** The Refinement was such an energy sucker =.=)zzz
 
 **01.07.2025 15:39** Yeah, I think I'm done for today
