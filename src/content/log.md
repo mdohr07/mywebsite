@@ -1,4 +1,4 @@
-**04.07.2025 19:16** The last two days were pretty exhusting to me. Glad about the weekend!
+**04.07.2025 19:16** The last two days were pretty exhausting to me. Glad about the weekend!
 
 **03.07.2025 19:26** The Refinement was such an energy sucker =.=)zzz
 
