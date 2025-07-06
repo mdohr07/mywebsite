@@ -1,3 +1,5 @@
+**06.07.2025 17:39** Chorus is super cheap on Steam right now! Bought it!
+
 **04.07.2025 19:16** The last two days were pretty exhausting to me. Glad about the weekend!
 
 **03.07.2025 19:26** The Refinement was such an energy sucker =.=)zzz
