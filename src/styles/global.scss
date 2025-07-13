@@ -188,10 +188,12 @@ a.social-link {
 .label {
   background-color: #ffcc00; /* Gelb */
   color: var(--darkColor);
+  width: 60px;
   height: 24px;
   padding: 3px 5px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .icon{
@@ -206,7 +208,7 @@ a.social-link {
 }
 
 img.icon {
-  width:23px;
+  width: 60px;
   height: 23px;
 }
 
