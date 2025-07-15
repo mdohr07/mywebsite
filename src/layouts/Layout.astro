@@ -1,6 +1,7 @@
 ---
 import '../styles/global.scss';
 import Footer from "../components/Footer.astro";
+import Nav from '../components/Nav.astro';
 
 // Website publisher & region
 const authorPublisher   = 'mdohr07.';
@@ -103,8 +104,13 @@ const openGraph = {
     </head>
 
     <body>
-        <slot />   
+          <div class="layout"> 
+        <header><Nav /></header>
+        <main>
+            <slot />   
+        </main>
         <footer><Footer /></footer>
+        </div>
     </body>
 
 </html>

@@ -1,7 +1,5 @@
 ---
 import { Code } from 'astro:components';
-import Footer from '../components/Footer.astro';
-import Nav from '../components/Nav.astro';
 import Layout from '../layouts/Layout.astro';
 
 const code = `
@@ -46,11 +44,6 @@ const code = `
 ---
 
 <Layout>
-<header><Nav /></header>
-  <div class="layout"> 
-    
-
-    <main>
 
 <Code
     code={code}
@@ -58,14 +51,11 @@ const code = `
     theme="catppuccin-frappe"
     wrap={true}
 />
-    </main>
 
-    <footer><Footer /></footer>
-  </div>
 </Layout>
 
 <style is:global>
-   body {
+   body, html {
     background-color: #000;
     color: #fff;
    }

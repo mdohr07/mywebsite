@@ -243,8 +243,36 @@ footer {
   position: relative;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .label {
     font-size: small;
   }
+
+  body {
+    padding: 0 1.5rem 0 1.5rem;
+  }
+
+  nav, main, footer {
+    width:100%;
+  }
+}
+
+@media (max-width: 555px) {
+  nav ul {
+    display: inline;
+  }
+
+  nav ul li {
+    margin-right: 1rem;
+  }
+
+ul li {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: none;
+}
+
 }
