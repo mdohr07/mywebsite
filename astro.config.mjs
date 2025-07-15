@@ -9,4 +9,10 @@ export default defineConfig({
   trailingSlash: 'always',
   site: 'https://mdohr.space',
   prefetch: false,
+  markdown: {
+    syntaxHighlight: 'shiki',
+    shikiConfig: {
+      theme: 'catppuccin-frappe'
+    }
+  }
 });

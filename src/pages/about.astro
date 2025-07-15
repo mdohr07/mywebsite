@@ -1,0 +1,102 @@
+---
+import { Code } from 'astro:components';
+import Footer from '../components/Footer.astro';
+import Nav from '../components/Nav.astro';
+import Layout from '../layouts/Layout.astro';
+
+const code = `
+#developer {
+    --name: "mdohr07";
+    --traits: (
+        "creative",
+        "disciplined",
+        "curious",
+        "focused"
+    );
+    --favEditor: "VS Code";
+}
+
+#skills {
+    --frontend: (
+        "HTML",
+        "CSS",
+        "SCSS",
+        "JavaScript",
+        "Angular",
+        "React",
+        "Astro"
+    );
+    --backend: ( /* beginner */
+        "Java",
+        "C#"
+    );
+    --tools: (
+        "Git",
+        "GitHub",
+        "npm"
+    );
+}
+
+#interests {
+    --current-focus: "Git, Terminal, JavaScript @pick-a-framework";
+    --next-step: "Internship";
+}
+
+`;
+---
+
+<Layout>
+<header><Nav /></header>
+  <div class="layout"> 
+    
+
+    <main>
+
+<Code
+    code={code}
+    lang="css"
+    theme="catppuccin-frappe"
+    wrap={true}
+/>
+    </main>
+
+    <footer><Footer /></footer>
+  </div>
+</Layout>
+
+<style is:global>
+   body {
+    background-color: #000;
+    color: #fff;
+   }
+
+    pre {
+        margin-top: -20px;
+        margin-left: -10px;
+    }
+
+    /* Custom styling for code block line numbers */
+    pre.astro-code {
+        @apply bg-black !important;
+    }
+
+    pre.astro-code code {
+        @apply block;
+        counter-reset: step;
+        counter-increment: step 0;
+    }
+
+    pre.astro-code code .line {
+        @apply relative;
+    }
+
+    pre.astro-code code .line::before {
+        content: counter(step);
+        counter-increment: step;
+    }
+
+    span.line::before {
+        margin: 0 10px;
+    }
+
+</style>
