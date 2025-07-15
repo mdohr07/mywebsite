@@ -1,96 +1,32 @@
 ---
-import { Picture } from "astro:assets";
-import ProfilePicture from "../assets/logo-big.png";
-
 const profile = {
   name: "mdohr07",
   title: "Frontend Developer",
   location: "Sol-3, Milky Way",
 };
 ---
+<h2 class="text-heading">Greetings, Traveler!</h2>
 
-<div
-  class="flex flex-col gap-6 items-center text-center sm:items-start sm:text-left"
->
-  <div class="flex flex-col sm:flex-row gap-4 sm:items-center">
-    <Picture
-      src={ProfilePicture}
-      formats={["png"]}
-      width={96}
-      height={96}
-      alt={"Profile picture " + profile.name}
-      title={profile.name}
-      class="w-24 h-24 object-cover standard-border mx-auto sm:mx-0"
-    />
+<p lang="en">
+  Welcome aboard my intergalactic outpost, orbiting around the stars and retro
+  internet vibes. <i>☆彡</i>
+</p>
+<section class="mini-profile">
+<b>{profile.name}</b><br />
+{profile.title}<br />
+{profile.location}
+</section>
 
-    <div>
-      <h1
-        class="text-2xl font-extrabold mb-1 inline-block relative text-heading"
-      >
-        {profile.name}
-      </h1>
+<div class="terminal-box">
+  <span class="prompt">user@mdohr07:~$</span> whoami<br />
+  <p class="output">
+    creative web explorer — INFJ(A), sci-fi and road cycling enthusiast
+  </p>
 
-      <p class="text-sm mb-2 text-primary">
-        {profile.title}
-      </p>
-
-      <p
-        class="flex items-center justify-center sm:justify-start text-sm text-meta"
-      >
-        <svg
-          class="-mt-0.5 inline mr-2"
-          fill="none"
-          height="14"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 24 24"
-          width="14"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-          <circle cx="12" cy="10" r="3"></circle>
-        </svg>
-        {profile.location}
-      </p>
-    </div>
-  </div>
-
-  <!-- h-card -->
-  <div class="text-meta max-w-xl mx-auto sm:mx-0">
-    <h2 class="text-heading">Greetings, Traveler!</h2>
-
-    <p lang="en" class="leading-relaxed mt-2 mb-4 standard-text">
-      Welcome aboard my intergalactic outpost, orbiting around the stars and
-      retro internet vibes. <i>☆彡</i>
-    </p>
-    ----------
-
-    <div class="terminal-box">
-      <span class="prompt">user@mdohr07:~$</span> whoami<br />
-      <p class="output">creative web explorer — INFJ(A), sci-fi and road cycling enthusiast</p>
-
-      <span class="prompt">user@mdohr07:~$</span> history | grep "start"<br />
-      <p class="output">
-        coding since 1999 — inspired by retro games & the old web
-      </p>
-    </div>
-
-    <!--
-    <p>-----------</p>
-
-    <div class="badges">
-    <img src="/img/assets/graphics/getacomp.jpg" alt="get a computer badge"/>
-    <img src="/img/assets//graphics/best_viewed_with_eyes.gif" alt="best viewed with eyes badge"/>
-    <img src="/img/assets//graphics/geocities_area_51.gif" alt="geocities area 51 badge"/>
-    <img src="/img/assets//graphics/alienexchange.gif" alt="alien exchange NOW! badge"/>
-    <img src="/img/assets//graphics/Yesterweb.gif" alt="yesterweb badge" />
-    </div>
-
-     -->
-
-    <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
-
-  </div>
+  <span class="prompt">user@mdohr07:~$</span> history | grep "start"<br />
+  <p class="output">
+    coding since 1999 — inspired by retro games & the old web
+  </p>
 </div>
+
+<link rel="authorization_endpoint" href="https://indieauth.com/auth" />

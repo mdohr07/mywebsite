@@ -1,148 +1,22 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
+import Nav from "../components/Nav.astro";
 import Profile from "../components/Profile.astro";
 import Contact from "../components/Contact.astro";
-
-import ContentLink from "../components/ContentLink.astro";
-import ContentCode from "../components/ContentAbout.astro";
-import ContentNow from "../components/ContentNow.astro";
-import ContentLog from "../components/ContentLog.astro";
-import ContentLinks from "../components/ContentLinks.astro"; // Neuer Import für Links-Tab
-import ContentSiteConfig from "../components/ContentSiteConfig.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <Layout>
-  <!-- Start: Main Wrapper -->
-  <main
-    class="flex flex-col md:flex-row w-full max-w-full md:max-w-7xl standard-border overflow-hidden shadow-2xl relative mb-12 md:mb-4"
-  >
-    <!-- Start: Left / upper card -->
-    <div
-      class="left-card p-8 md:p-6 flex flex-col justify-between w-full md:w-2/5 border-right"
-    >
+<header><Nav /></header>
+  <div class="layout"> 
+    
+
+    <main>
       <Profile />
-
       <Contact />
-    </div>
-    <!-- End: Left / upper card -->
+    </main>
 
-    <!-- Start: Right / lower card (yes 4/5 instead of 3/5) -->
-    <div class="light-color-font w-full md:w-4/5 p-0">
-      <!-- Start: Inner wrapper -->
-      <div class="min-h-full h-[90vh] flex flex-col overflow-y-scroll">
-        <!-- Use hidden radio buttons to control the tabs -->
-        <div class="tab-controls">
-          <input type="radio" id="tab1" name="tabs" class="tab-radio" checked />
-          <input type="radio" id="tab2" name="tabs" class="tab-radio" />
-          <input type="radio" id="tab3" name="tabs" class="tab-radio" />
-          <input type="radio" id="tab4" name="tabs" class="tab-radio" />
-          <input type="radio" id="tab5" name="tabs" class="tab-radio" />
-
-          <!-- Start: Tab bar -->
-          <div class="tab-bar flex border-bottom sticky top-0 z-10">
-            <ContentLink contentId="tab1" contentName="log.md" />
-            <ContentLink contentId="tab2" contentName="about.css" />
-            <ContentLink contentId="tab3" contentName="now.md" />
-            <ContentLink contentId="tab4" contentName="site.config" />
-            <ContentLink contentId="tab5" contentName="links.html" />
-          </div>
-          <!-- End: Tab bar -->
-
-          <!-- Start: Tab content -->
-          <div class="p-6 flex-grow overflow-y-auto">
-            <!-- Log content -->
-            <div id="content1" class="tab-content">
-              <ContentLog />
-            </div>
-
-            <!-- About content -->
-            <div id="content2" class="tab-content">
-              <ContentCode />
-            </div>
-
-            <!-- Projects now -->
-            <div id="content3" class="tab-content">
-              <ContentNow />
-            </div>
-
-            <!-- config/specs content -->
-            <div id="content4" class="tab-content">
-              <ContentSiteConfig />
-            </div>
-
-            <!-- Links content -->
-            <div id="content5" class="tab-content">
-              <ContentLinks />
-            </div>
-
-            <!-- End: Links content -->
-          </div>
-          <!-- End: Tab content -->
-        </div>
-      </div>
-      <!-- End: Inner wrapper -->
-    </div>
-    <!-- End: Right / lower card -->
-  </main>
-  <!-- End: Main Wrapper -->
+    <footer><Footer /></footer>
+  </div>
 </Layout>
-
-<style is:global>
-  /* Hide the radio buttons */
-  .tab-radio {
-    @apply absolute opacity-0 pointer-events-none;
-  }
-
-  /* Default state - hide all tab content */
-  .tab-content {
-    @apply hidden opacity-0;
-    transition: opacity 0.3s ease-in-out;
-  }
-
-  /* Default state for tab links */
-  .tab-link {
-    @apply border-b-2 border-transparent bg-transparent;
-    transition: background-color 0.2s ease-in-out;
-  }
-
-  /* Tab 1 */
-  #tab1:checked ~ * #content1 {
-    @apply block opacity-100;
-  }
-  #tab1:checked ~ .flex .tab-link:nth-child(1) {
-    @apply border-b-2 border-b-primary;
-  }
-
-  /* Tab 2 */
-  #tab2:checked ~ * #content2 {
-    @apply block opacity-100;
-  }
-  #tab2:checked ~ .flex .tab-link:nth-child(2) {
-    @apply border-b-2 border-b-primary;
-  }
-
-  /* Tab 3 */
-  #tab3:checked ~ * #content3 {
-    @apply block opacity-100;
-  }
-  #tab3:checked ~ .flex .tab-link:nth-child(3) {
-    @apply border-b-2 border-b-primary;
-  }
-
-  /* Tab 4 */
-  #tab4:checked ~ * #content4 {
-    @apply block opacity-100;
-  }
-  #tab4:checked ~ .flex .tab-link:nth-child(4) {
-    @apply border-b-2 border-b-primary;
-  }
-  
-/* Tab 5 */
-#tab5:checked ~ * #content5 {
-  @apply block opacity-100;
-}
-#tab5:checked ~ .flex .tab-link:nth-child(5) {
-  @apply border-b-2 border-b-primary;
-}
-</style>
