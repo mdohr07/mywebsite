@@ -1,3 +1,37 @@
+**13.07.2025 17:51** They always get me with cute mascots... :p
+
+**10.07.2025 18:14** I think I learned a lot today but I am so tired now _(:3 」∠)_
+
+**09.07.2025 21:10** Today was a productive day
+
+**08.07.2025 20:04** Infinite rebase loops exist. Now I know.
+
+**07.07.2025 16:14** Phew, that was a work-intense day. But fun^^
+
+**06.07.2025 17:39** Chorus is super cheap on Steam right now! Bought it!
+
+**04.07.2025 19:16** The last two days were pretty exhausting to me. Glad about the weekend!
+
+**03.07.2025 19:26** The Refinement was such an energy sucker =.=)zzz
+
+**01.07.2025 15:39** Yeah, I think I'm done for today
+
+**30.06.2025 15:30** Updated the now-page :3
+
+**28.06.2025 19:35** How is it almost July? When did this happen?!
+
+**27.06.2025 21:09** Team building day went fine, but I really need to refuel my energy levels now
+
+**26.06.2025 20:41** almost the weekend - yaaaay :3
+
+**25.06.2025 20:02** Something made my Urticaria flare up a lot today -_-
+
+**24.06.2025 21:38** This week is... different. what will tomorrow bring?
+
+**23.06.2025 17:16** Some contacts might not be worth clinging to...
+
+**22.06.2025 21:02** So I joined cara.app today. I wonder how that will go.
+
 **21.06.2025 20:39** I was actually drawing today :o
 
 **20.06.2025 14:48** Got a new hair cut - now it is short again
@@ -6,7 +40,7 @@
 
 **10.06.2025 16:35** React at home, Angular in class ^_^;
 
-**09.06.2025 18:48** This weekend I installed Linix on my old laptop :3
+**09.06.2025 18:48** This weekend I installed Linux on my old laptop :3
 
 **06.06.2025 15:46** Note to self: continue watching at ~29 minutes
 
@@ -24,7 +58,7 @@
 
 **03.06.2025 15:13** Not getting enough time to wind down lately :/
 
-**02.06.2025 09:11** World Milk Day, how silly. Why not a National Broccoli Day or something?
+**02.06.2025 09:11** World Milk Day, how silly. Why not an international Broccoli Day or something?
 
 **01.06.2025 18:09** Listening to some game soundtracks makes me wanna play that game again :-/
 
