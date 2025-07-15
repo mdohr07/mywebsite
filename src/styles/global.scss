@@ -196,11 +196,16 @@ b, strong {
 }
 
 .log-entries {
+  width: 100%;
   margin-top: 1rem;
 }
 
 .log-entries p {
   line-height: 1rem;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  white-space: normal;
+
 }
 
 .log-entries p::before {
