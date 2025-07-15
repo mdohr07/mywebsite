@@ -1,12 +1,6 @@
 This is a [now page](https://nownownow.com/about), and if you have your own site, [you should make one](https://nownownow.com/about), too.
 
-```
-+------------------------+
-| Last updated:          |
-|   May 26th, 2025       |
-+------------------------+
-```
-<br>
+Last updated: May 26th, 2025 
 
 ## Projects / currently learning
 
@@ -37,6 +31,8 @@ This is a [now page](https://nownownow.com/about), and if you have your own site
 
 ## Playing
 
+- [Chorus](https://chorusthegame.com/)
+- [The Elder Scrolls Online](https://www.elderscrollsonline.com/de/home)
 - Klonoa
 - [Metroid II](https://www.nintendo.com/de-de/Spiele/Game-Boy/Metroid-II-Return-of-Samus-275737.html)
 - ~~[Animal Crossing: New Horizons](https://www.nintendo.com/us/store/products/animal-crossing-new-horizons-switch/)~~
@@ -53,4 +49,4 @@ Yes, I'm trying to read...
 ## Misc notes
 
 - Not **cycling enough**
-- Reduced caffeine intake to fight Urtikaria
+- ~~Reduced caffeine intake to fight Urtikaria~~
