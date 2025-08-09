@@ -47,16 +47,16 @@ h6 {
 
 hr {
   height: 1px;
-  background-color: #000;
+  background-color: #ccc;
   margin: 1rem 0;
 }
 
 body,
 html {
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   height: 100%;
-  font-size: 0.90rem;
+  font-size: 0.95rem;
   font-weight: normal;
   cursor: url("/img/assets/cursors/ufocursor.gif"), auto;
   font-family: "Source Code Pro", monospace;
@@ -97,7 +97,7 @@ nav ul li {
 }
 
 nav ul li:first-child {
-color: red;
+// color: red;
 margin-left: -20px;
 }
 
@@ -124,14 +124,18 @@ ul li {
   padding-left: 1rem;
 }
 
-ul li::before {
-  content: "> ";
+a {
+  background-color: #333;
+  color: #efefef;
+  padding: 0px 5px;
 }
 
-a,
-a:hover,
 a:visited {
-  color: #FF6633;
+  color: #ccc;
+}
+
+a:hover {
+  color: #fff;
 }
 
 a,
@@ -165,7 +169,7 @@ b, strong {
   width: 100%;
   background-color: #000;
   color: #fff;
-  border: 1px solid;
+  border: 1px solid #fff;
   padding: 10px;
 }
 
@@ -185,6 +189,7 @@ b, strong {
 .social-link img.icon {
   width: 16px;
   height: 16px;
+  filter: invert(1);
 }
 
 .label {
