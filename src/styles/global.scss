@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Pirata+One&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 * {
   margin: 0;
@@ -24,6 +24,7 @@ h5,
 h6 {
   line-height: 1.2;
   font-weight: 700;
+  font-family: 'Pirata One', cursive;
 }
 
 h1 {
@@ -51,15 +52,19 @@ hr {
   margin: 1rem 0;
 }
 
+code {
+  font-size: 0.9rem;
+}
+
 body,
 html {
   background-color: #000;
   color: #efefef;
   height: 100%;
-  font-size: 0.95rem;
+  font-size: 1.15rem; /* Serif-Fließtext etwas größer */
   font-weight: normal;
   cursor: url("/img/assets/cursors/ufocursor.gif"), auto;
-  font-family: "Source Code Pro", monospace;
+  font-family: 'EB Garamond', serif;
   font-weight: 400;
 }
 
@@ -96,9 +101,12 @@ nav ul li {
   margin: 0;
 }
 
+nav a {
+  background-color: #333; /* #213721 < Dunkelrün */
+}
+
 nav ul li:first-child {
-// color: red;
-margin-left: -20px;
+  margin-left: -20px;
 }
 
 main {
@@ -108,20 +116,22 @@ main {
   width: 50%;
 }
 
-.mini-profile {
-  border-top: 1px solid;
+.intro {
   border-bottom: 1px solid;
   margin: 1rem 0;
   padding: 1rem 0;
 }
 
 .terminal-box {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.9rem;
   margin-bottom: 2rem;
 }
 
 ul li {
-  list-style-type: none;
-  padding-left: 1rem;
+  list-style-type: disclosure-closed;
+  margin-left: 1rem;
+  padding-left: 0.25rem;
 }
 
 a {
@@ -144,8 +154,9 @@ button,
   cursor: url("/img/assets/cursors/pointer.gif"), pointer;
 }
 
-b, strong {
-   font-weight: 600;
+b,
+strong {
+  font-weight: 600;
 }
 
 .prompt {
@@ -155,6 +166,7 @@ b, strong {
 .output {
   padding-left: 1rem;
   margin-bottom: 1rem;
+  color: #ccc;
 }
 
 .output::before {
@@ -163,9 +175,14 @@ b, strong {
 
 .connect-title {
   font-weight: 600;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.9rem;
+  color: #ccc;
 }
 
 .connect-box {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.9rem; 
   width: 100%;
   background-color: #000;
   color: #ccc;
@@ -204,6 +221,7 @@ b, strong {
 .log-entries {
   width: 100%;
   margin-top: 1rem;
+  font-size: 0.9rem;
 }
 
 .log-entries p {
@@ -211,11 +229,6 @@ b, strong {
   word-break: break-word;
   overflow-wrap: anywhere;
   white-space: normal;
-
-}
-
-.log-entries p::before {
-  content: "$ ";
 }
 
 .log-entries strong {
@@ -234,7 +247,7 @@ tbody {
 
 table tr th {
   width: 100%;
-  height:30px;
+  height: 30px;
   text-align: left;
 }
 
@@ -264,8 +277,10 @@ footer {
     padding: 0 1.5rem 0 1.5rem;
   }
 
-  nav, main, footer {
-    width:100%;
+  nav,
+  main,
+  footer {
+    width: 100%;
   }
 }
 
@@ -278,13 +293,7 @@ footer {
     margin-right: 1rem;
   }
 
-ul li {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-ul li::before {
-  content: none;
-}
-
+  ul li::before {
+    content: none;
+  }
 }
