@@ -103,6 +103,7 @@ nav ul {
 nav ul li {
   display: inline;
   margin: 0;
+    padding-left: 0rem;
 }
 
 nav ul li a, 
@@ -116,10 +117,6 @@ nav ul li a:hover {
   color: #efefef;
 }
 
-nav ul li:first-child {
-  margin-left: -20px;
-}
-
 main {
   display: flex;
   flex-direction: column;
@@ -127,7 +124,7 @@ main {
   width: 50%;
 }
 
-.intro {
+.highlight-area {
   background-color: #111;
   border: 1px solid #333;
   margin-bottom: 2rem;
@@ -163,14 +160,13 @@ h1.title {
 }
 
 ul li {
-  list-style-type: disclosure-closed;
+  list-style-type: square;
   margin-left: 1rem;
   padding-left: 0.25rem;
 }
 
 a {
-  background-color: #333;
-  color: #efefef;
+  color: #c39768;
   padding: 0px 5px;
 }
 
@@ -246,7 +242,7 @@ strong {
 
 .label {
   height: 24px;
-  padding: 3px 5px;
+  padding: 3px 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -302,6 +298,10 @@ footer {
   position: relative;
 }
 
+.now {
+  margin-top: -1rem;
+}
+
 @media (max-width: 820px) {
   .label {
     font-size: small;
@@ -321,10 +321,6 @@ footer {
 @media (max-width: 555px) {
   nav ul {
     display: inline;
-  }
-
-  nav ul li {
-    margin-right: 1rem;
   }
 
   ul li::before {

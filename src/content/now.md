@@ -1,6 +1,6 @@
-This is a [now page](https://nownownow.com/about), and if you have your own site, [you should make one](https://nownownow.com/about), too.
+# Now
 
-Last updated: May 26th, 2025 
++— Last updated: May 26th, 2025 —+
 
 ## Projects / currently learning
 
