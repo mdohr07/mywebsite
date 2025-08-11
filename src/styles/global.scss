@@ -137,7 +137,7 @@ header {
 }
 
 nav {
-  width: 50%;
+  max-width: 800px;
   margin: 2rem 0;
   padding: 10px 0px;
   text-align: center;
@@ -171,7 +171,7 @@ main {
   display: flex;
   flex-direction: column;
   flex: 1 0 auto;
-  width: 50%;
+  max-width: 800px;
 }
 
 footer {
