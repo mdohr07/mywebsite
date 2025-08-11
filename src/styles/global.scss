@@ -53,7 +53,7 @@ hr {
 }
 
 p {
-  margin: 1rem 0;
+  margin: 0.25rem 0;
 }
 
 code,
@@ -152,7 +152,7 @@ nav ul {
 }
 
 nav ul li {
-  display: inline;
+  display: inline-block;
   margin: 0;
   padding-left: 0rem;
 }
@@ -196,7 +196,7 @@ footer {
 }
 
 h1.title {
-  font-size: clamp(3.5rem, 10vw, 8rem);
+  font-size: clamp(3.5rem,9vw,8rem);
   max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -340,13 +340,23 @@ h1.title {
   }
 
   body {
-    padding: 0 1.5rem 0 1.5rem;
+    padding: 0 1.5rem 0 1rem;
   }
 
   nav,
   main,
   footer {
     width: 100%;
+  }
+
+  .highlight-area {
+  padding: 1.5rem;
+}
+
+  .intro-text {
+    margin: 1rem 0;
+  padding: 0;
+  text-align: justify;
   }
 }
 
