@@ -1,9 +1,10 @@
 # Now
 
-+— Last updated: May 26th, 2025 —+
++— Last updated: July 13th, 2025 —+
 
 ## Projects / currently learning
 
+- Linocut
 - Brush up my **Japanese**
 - Improving my **handwriting**
 - Becoming a better learner **and thinker**

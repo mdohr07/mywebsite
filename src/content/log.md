@@ -1,3 +1,5 @@
+**13.07.2025 15:13** Too hot outsinde...
+
 **25.07.2025 21:07** There are two new links within a new section on the links-list now :D
 
 **17.07.2025 21:07** I experimented with React and Vite, facing strange problems with node
