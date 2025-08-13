@@ -6,7 +6,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   integrations: [tailwind(), compress(), sitemap()],
   output: 'static',
-  trailingSlash: 'always',
+  trailingSlash: 'ignore',
   site: 'https://mdohr.space',
   prefetch: false,
   markdown: {

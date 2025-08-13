@@ -1,13 +1,17 @@
 ---
+import Layout from './Layout.astro';
 const { content } = Astro.props;
-const { title } = content;
+const { title, pubDate } = content;
 ---
 
-<html lang="en">
-  <head>
-    <title>{title}</title>
-  </head>
-  <body>
+<Layout title={title}>
+  <article>
+    <p class="post-date">{new Date(pubDate).toLocaleDateString('de-DE')}</p>
+    <!-- 
+    Music
+    Mood
+    Tags -->
+    <hr>
     <slot />
-  </body>
-</html>
+  </article>
+</Layout>
