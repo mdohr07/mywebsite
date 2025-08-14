@@ -1,0 +1,55 @@
+---
+title: 'Markdown Test Post'
+pubDate: 2025-08-14
+description: 'A test post to check Markdown rendering with Astro and marked@16.1.2.'
+author: 'mdohr'
+image:
+    url: 'https://docs.astro.build/assets/rose.webp'
+    alt: 'Astro logo on dark background with pink glow.'
+tags: ["astro", "testing", "marked"]
+layout: ../../layouts/post.astro
+---
+
+# Markdown Test Post
+
+This is a **bold text**, this is *italic*, and this is ~~strikethrough~~.
+
+## Lists
+
+- Unordered item 1
+- Unordered item 2
+  - Nested item 2a
+  - Nested item 2b
+
+1. Ordered item 1
+2. Ordered item 2
+
+## Links
+
+[Astro Docs](https://docs.astro.build)
+
+## Images
+
+![Astro Logo](https://docs.astro.build/assets/rose.webp "Astro Logo")
+
+## Code Blocks
+
+Inline code: `const x = 42;`
+
+Fenced code block:
+
+```js
+function greet(name) {
+    console.log(`Hello, ${name}!`);
+}
+greet("Astro");
+```
+
+> This is a sample blockquote.
+> You can have multiple lines, and it will still be part of the same quote.
+
+| Syntax     | Description |
+|-----------|-------------|
+| Header    | Title       |
+| Paragraph | Text        |
+| List      | Items       |

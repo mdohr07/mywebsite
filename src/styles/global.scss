@@ -169,6 +169,8 @@ nav ul li a:hover {
 }
 
 main {
+  width: 95%;
+  max-width: 800px;
   display: flex;
   flex-direction: column;
   flex: 1 0 auto;

@@ -1,10 +1,9 @@
 import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
 import compress from 'astro-compress';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  integrations: [tailwind(), compress(), sitemap()],
+  integrations: [compress(), sitemap()], // Tailwind entfernen
   output: 'static',
   trailingSlash: 'ignore',
   site: 'https://mdohr.space',
