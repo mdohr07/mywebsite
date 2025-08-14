@@ -8,6 +8,9 @@ image:
     alt: 'Astro logo on dark background with pink glow.'
 tags: ["astro", "testing", "marked"]
 layout: ../../layouts/post.astro
+mood: 'confused'
+musicTitle: 'songname'
+musicUrl: 'https://youtube.com'
 ---
 
 # Markdown Test Post

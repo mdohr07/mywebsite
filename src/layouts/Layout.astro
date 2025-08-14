@@ -1,118 +1,126 @@
 ---
-import '../styles/global.scss';
+import "../styles/global.scss";
 import Footer from "../components/Footer.astro";
-import Nav from '../components/Nav.astro';
+import Nav from "../components/Nav.astro";
 
 // Website publisher & region
-const authorPublisher   = 'mdohr07.';
-const geoRegion         = 'DE-HB';
+const authorPublisher = "mdohr07.";
+const geoRegion = "DE-HB";
 
 // SEO title, description and keywords
-const seoTitle          = 'mdohr07 | Frontend Developer\'s personal space';
-const seoDescription    = 'A personal space by frontend developer mdohr07 – curious and focused, sharing experiences, creative projects, and collections from the journey of learning and building on the web.';
-const seoKeywords       = 'frontend developer, mdohr07, web development, creative coding, personal website, GitHub, Bearblog, VS Code, learning by building, developer portfolio, web design, Astro, HTML, CSS, JavaScript';
+const seoTitle = "mdohr07 | Frontend Developer's personal space";
+const seoDescription =
+  "A personal space by frontend developer mdohr07 – curious and focused, sharing experiences, creative projects, and collections from the journey of learning and building on the web.";
+const seoKeywords =
+  "frontend developer, mdohr07, web development, creative coding, personal website, GitHub, Bearblog, VS Code, learning by building, developer portfolio, web design, Astro, HTML, CSS, JavaScript";
 
 // Twitter card data
 const twitter = {
-    title:          'mdohr07 | Frontend Developer',
-    description:    'The personal site of a frontend developer',
-    image:          '/img/preview.png',
-    site:           '@mdohr_space',
-    creator:        '@mdohr_space'
+  title: "mdohr07 | Frontend Developer",
+  description: "The personal site of a frontend developer",
+  image: "/img/preview.png",
+  site: "@mdohr_space",
+  creator: "@mdohr_space",
 };
 
 // Open graph data
 const openGraph = {
-    title:          'mdohr07 | Frontend Developer',
-    description:    'The personal site of a frontend developer',
-    url:            'https://mdohr.space',
-    image:          '/img/preview.png',
-    type:           'website',
-    locale:         'de_DE',
-    siteName:       'mdohr.space'
+  title: "mdohr07 | Frontend Developer",
+  description: "The personal site of a frontend developer",
+  url: "https://mdohr.space",
+  image: "/img/preview.png",
+  type: "website",
+  locale: "de_DE",
+  siteName: "mdohr.space",
 };
-
 ---
 
 <!doctype html>
 <html lang="en">
+  <head>
+    <!-- Crawler & Robots -->
+    <meta
+      name="robots"
+      content="index, follow, noodp, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="revisit" content="after 7 days" />
 
-    <head>
+    <!-- Start: Meta-Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Pragma" content="cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- End: Meta-Tags -->
 
-        <!-- Crawler & Robots -->
-        <meta name="robots" content="index, follow, noodp, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-        <meta name="revisit-after" content="7 days" />
-        <meta name="revisit" content="after 7 days" />
+    <!-- Start: DNS prefetch and preconnect -->
+    <!-- <link rel="preload" as="image" href="/img/logo.svg" /> -->
+    <link rel="preconnect" href="https://brain.papersend.io" />
+    <!-- End: DNS prefetch and preconnect -->
 
-        <!-- Start: Meta-Tags -->
-        <meta charset="UTF-8" />
-        <meta http-equiv="content-type"         content="text/html; charset=UTF-8">
-        <meta http-equiv="Pragma"               content="cache" />
-        <meta http-equiv="X-UA-Compatible"      content="IE=edge">
-        <meta name="viewport"                   content="width=device-width, initial-scale=1">
-        <!-- End: Meta-Tags -->
-
-        <!-- Start: DNS prefetch and preconnect -->
-        <!-- <link rel="preload" as="image" href="/img/logo.svg" /> -->
-        <link rel="preconnect" href="https://brain.papersend.io" />
-        <!-- End: DNS prefetch and preconnect -->
-
-        <!-- Start: Theming and Favicons -->
-        <link rel="icon" type="image/svg+xml" crossorigin="anonymous" href="/img/logo.png" />
-        <!-- <link rel="alternate icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <!-- Start: Theming and Favicons -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      crossorigin="anonymous"
+      href="/img/logo.png"
+    />
+    <!-- <link rel="alternate icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
         <link rel="alternate icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
         <link rel="icon" type="image/x-icon" href="/img/favicon/favicon.ico">
         <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
         <link rel="manifest" href="/img/favicon/site.webmanifest"> -->
-        <!-- End: Theming and Favicons -->
+    <!-- End: Theming and Favicons -->
 
-        <!-- Start: Misc meta tags -->
-        <link rel="sitemap"                     href="/sitemap-index.xml" />
-        <link rel="canonical"                   href={Astro.url} />
+    <!-- Start: Misc meta tags -->
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="canonical" href={Astro.url} />
 
-        <meta name="geo.region"                 content={geoRegion}>
-        <meta name="author"                     content={authorPublisher}>
-        <meta name="publisher"                  content={authorPublisher}>
-        <meta name="copyright"                  content={authorPublisher}>
-        <!-- End: Misc meta tags -->
+    <meta name="geo.region" content={geoRegion} />
+    <meta name="author" content={authorPublisher} />
+    <meta name="publisher" content={authorPublisher} />
+    <meta name="copyright" content={authorPublisher} />
+    <!-- End: Misc meta tags -->
 
-        <!-- Start: Facebook open graph -->
-        <meta property="og:title"               content={openGraph.title}>
-        <meta property="og:description"         content={openGraph.description}>
-        <meta property="og:url"                 content={openGraph.url}>
-        <meta property="og:type"                content={openGraph.type}>
-        <meta property="og:image"               content={openGraph.image}>
-        <meta property="og:locale"              content={openGraph.locale}>
-        <meta property="og:site_name"           content={openGraph.siteName}>
-        <!-- End: Facebook open graph -->
+    <!-- Start: Facebook open graph -->
+    <meta property="og:title" content={openGraph.title} />
+    <meta property="og:description" content={openGraph.description} />
+    <meta property="og:url" content={openGraph.url} />
+    <meta property="og:type" content={openGraph.type} />
+    <meta property="og:image" content={openGraph.image} />
+    <meta property="og:locale" content={openGraph.locale} />
+    <meta property="og:site_name" content={openGraph.siteName} />
+    <!-- End: Facebook open graph -->
 
-        <!-- Start: Twitter card -->
-        <meta name="twitter:card"               content="summary_large_image">
-        <meta name="twitter:title"              content={twitter.title}>
-        <meta name="twitter:description"        content={twitter.description}>
-        <meta name="twitter:image"              content={twitter.image}>
-        <meta name="twitter:site"               content={twitter.site}>
-        <meta name="twitter:creator"            content={twitter.creator}>
-        <!-- End: Twitter card -->
+    <!-- Start: Twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={twitter.title} />
+    <meta name="twitter:description" content={twitter.description} />
+    <meta name="twitter:image" content={twitter.image} />
+    <meta name="twitter:site" content={twitter.site} />
+    <meta name="twitter:creator" content={twitter.creator} />
+    <!-- End: Twitter card -->
 
-        <!-- Title & Description -->
-        <title>{seoTitle}</title>
-        <meta name="description" content={seoDescription}>
-        <meta name="abstract"    content={seoDescription}>
-        <meta name="keywords"    content={seoKeywords}>
+    <!-- Title & Description -->
+    <title>{seoTitle}</title>
+    <meta name="description" content={seoDescription} />
+    <meta name="abstract" content={seoDescription} />
+    <meta name="keywords" content={seoKeywords} />
+  </head>
 
-    </head>
+  <body>
+    <div class="layout">
+      <header><Nav /></header>
 
-    <body>
-          <div class="layout"> 
-        <header><Nav /></header>
-        <main>
-            <slot />   
-        </main>
+      <main>
+        <slot />
+      </main>
+    </div>
 
-            <img src="/img/assets/graphics/bonepile.gif">
-        <footer><Footer /></footer>
-        </div>
-    </body>
-
+    <div class="centered-image">
+      <img src="/img/assets/graphics/bonepile.gif" />
+    </div>
+    <footer><Footer /></footer>
+  </body>
 </html>
