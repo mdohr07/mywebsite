@@ -1,17 +1,26 @@
 ---
 import Layout from './Layout.astro';
 const { content } = Astro.props;
-const { title, pubDate } = content;
+const { title, 
+        pubDate, 
+        author, 
+        mood,
+        musicTitle,
+        musicUrl
+        } = content;
 ---
 
 <Layout title={title}>
   <article>
-    <p class="post-date">{new Date(pubDate).toLocaleDateString('de-DE')}</p>
-    <!-- 
-    Music
-    Mood
-    Tags -->
-    <hr>
+    <p class="post-date">Published on {new Date(pubDate).toLocaleDateString('de-DE')}</p>
+    <!-- Tags -->
     <slot />
+
+    <p class="author">Written by { author }</p>
   </article>
+  ---<br>
+  <section>
+    <p>Mood: { mood }</p>
+    <p>Music: <a href={musicUrl} target="_blank" rel="noopener noreferrer">{ musicTitle }</a></p>
+  </section>
 </Layout>
