@@ -1,5 +1,4 @@
 ---
-import Layout from './Layout.astro';
 const { content } = Astro.props;
 const { title, 
         pubDate, 
@@ -10,7 +9,7 @@ const { title,
         } = content;
 ---
 
-<Layout title={title}>
+<div title={title}>
   <article>
    
     <!-- Tags -->
@@ -23,4 +22,4 @@ const { title,
     <p>Mood: { mood }</p>
     <p>Music: <a href={musicUrl} target="_blank" rel="noopener noreferrer">{ musicTitle }</a></p>
   </section>
-</Layout>
+</div>
