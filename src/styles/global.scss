@@ -79,12 +79,14 @@ html {
     "image"
     "footer";
 
-  background-image: url('/img/assets/graphics/dithered-image.png');
-  background-size: 300px;
+  background-size: cover;
+  background-color: #000;
   color: #efefef;
   height: 100%;
   font-size: 1.15rem;
   font-weight: normal;
+  
+  background-image: url('/img/assets/graphics/texture-pattern.jpg');
   cursor: url("/img/assets/cursors/ufocursor.gif"), auto;
   font-family: "EB Garamond", serif;
   font-weight: 400;
