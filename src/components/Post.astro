@@ -2,27 +2,35 @@
 import Layout from "../layouts/Layout.astro";
 
 const { content } = Astro.props;
-const { title, 
-        pubDate, 
-        author, 
-        mood,
-        musicTitle,
-        musicUrl
-        } = content;
----
-<Layout>
-<div title={ title }>
-  <article>
-   
-    <!-- Tags -->
-    <slot />
+const { title, pubDate, author, mood, musicTitle, musicUrl } = content;
 
-    <p class="author">Written by { author }</p>
-  </article>
-  ---<br>
-  <section>
-    <p>Mood: { mood }</p>
-    <p>Music: <a href={ musicUrl } target="_blank" rel="noopener noreferrer">{ musicTitle }</a></p>
-  </section>
-</div>
+const formatDate = (pubDate: any) => {
+  return new Date(pubDate).toLocaleDateString("de-DE", {
+    weekday: "long", // Friday
+    year: "numeric", // 2022
+    month: "long", // July
+    day: "numeric", // 1
+  });
+};
+
+const date = formatDate(pubDate);
+---
+
+<Layout>
+  <div title={title}>
+    <article>
+      <!-- Tags -->
+      <slot />
+
+      <p class="author">Verfasst von {author} am {date}</p>
+    </article>
+    ---<br />
+    <section>
+      <p>Stimmung: { mood }</p>
+      <p>
+        Musik: <a href={ musicUrl } target="_blank" rel="noopener noreferrer"
+          >{ musicTitle }</a>
+      </p>
+    </section>
+  </div>
 </Layout>
