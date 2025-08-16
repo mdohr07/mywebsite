@@ -85,8 +85,8 @@ html {
   height: 100%;
   font-size: 1.15rem;
   font-weight: normal;
-  
-  background-image: url('/img/assets/graphics/texture-pattern.jpg');
+
+  background-image: url("/img/assets/graphics/texture-pattern.jpg");
   cursor: url("/img/assets/cursors/ufocursor.gif"), auto;
   font-family: "EB Garamond", serif;
   font-weight: 400;
@@ -139,6 +139,40 @@ blockquote {
   background-color: #111;
   border-left: 1px solid #333;
   padding: 0.25rem 1rem;
+}
+
+// blockquote.random-quote {
+
+// text-align: center;
+// padding: 0;
+// font-size: xx-large;
+// font-weight: 600;
+// margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+// }
+
+.random-quote {
+  background-color: transparent;
+  border: none;
+  margin: 2rem auto;
+  max-width: 600px;
+  font-style: italic;
+  text-align: center;
+}
+
+.random-quote blockquote {
+  background-color: transparent;
+  border: none;
+  font-size: xx-large;
+  font-weight: 600;
+  quotes: "“" "”" "‘" "’";
+}
+
+.random-quote figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-style: normal;
+  text-align: right;
+  color: #aaa;
 }
 
 a {
@@ -275,6 +309,7 @@ h1.title {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-align: center;
 }
 
 .intro-text {
