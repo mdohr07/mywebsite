@@ -19,6 +19,7 @@
     "devDependencies": {
         "@astrojs/sitemap": "^3.2.1",
         "astro-compress": "^2.3.6",
+        "prettier-plugin-astro": "^0.14.1",
         "sass": "^1.85.1"
     }
 }

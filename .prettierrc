@@ -1,0 +1,15 @@
+{
+  "plugins": ["prettier-plugin-astro"],
+  "printWidth": 80,
+  "bracketSameLine": true,
+  "overrides": [
+    {
+      "files": "*.astro",
+      "options": {
+        "parser": "astro",
+        "printWidth": 120,
+        "bracketSameLine": true
+      }
+    }
+  ]
+}

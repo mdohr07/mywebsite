@@ -17,22 +17,23 @@ const date = formatDate(pubDate);
 ---
 
 <Layout>
-  <div title={ title }>
+  <div title={title}>
     <article>
       <!-- Tags -->
       <slot />
 
- 
       <section class="meta">
-
-      <p class="author">
-        <span class="secondary">Verfasst von </span>{ author } <span class="secondary">am</span> { date }</p>
-    </article>
-       ---<br />
-      <p>Stimmung: { mood }</p>
+        <p class="author">
+          <span class="secondary">Verfasst von </span>{author}
+          <span class="secondary">am</span>
+          {date}
+        </p>
+      </section>
+      ---<br />
+      <p>Stimmung: {mood}</p>
       <p>
-        Musik: <a href={ musicUrl } target="_blank" rel="noopener noreferrer">{ musicTitle }</a>
+        Musik: <a href={musicUrl} target="_blank" rel="noopener noreferrer">{musicTitle}</a>
       </p>
-    </section>
+    </article>
   </div>
 </Layout>
