@@ -10,9 +10,11 @@
     },
     "dependencies": {
         "@astrojs/markdown-remark": "^6.3.2",
+        "@astrojs/preact": "^4.1.0",
         "@astrojs/rss": "^4.0.12",
         "astro": "^5.4.2",
         "marked": "16.1.2",
+        "preact": "^10.27.0",
         "remark": "^15.0.1",
         "shiki": "^3.1.0",
         "swetrix": "^3.5.4"
