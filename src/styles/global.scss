@@ -261,7 +261,6 @@ footer {
 }
 
 // Start Page //
-
 .highlight-area {
   background-color: #111;
   border: 1px solid #333;
@@ -305,7 +304,6 @@ h1.title {
 }
 
 // Connect //
-
 .connect-title {
   font-weight: 600;
   font-family: "Source Code Pro", monospace;
@@ -355,7 +353,6 @@ h1.title {
 }
 
 // Gallery //
-
 .gallery {
   display: flex;
   justify-content: space-between;
@@ -455,7 +452,6 @@ h1.title {
 }
 
 // Tags Page
-
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -468,6 +464,34 @@ h1.title {
   padding: 0.15em 0.5em;
   font-size: 1.15em;
   background-color: #111;
+}
+
+// Post list on tags page
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.post-date {
+  color: #666;
+}
+
+.post-description {
+  margin: 0;
+  color: #ccc;
 }
 
 @media (max-width: 820px) {

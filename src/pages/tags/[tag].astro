@@ -1,6 +1,13 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import Post from "../../components/Post.astro";
+
+const formatDate = (pubDate: any) => {
+  return new Date(pubDate).toLocaleDateString("en-US", {
+    day: "numeric",    // 1
+    month: "long",     // Juli
+    year: "numeric",   // 2022
+  });
+};
 
 export async function getStaticPaths() {
   const allPosts = Object.values(
@@ -31,15 +38,15 @@ const { posts } = Astro.props;
 
 <Layout pageTitle={tag}>
   <h1>Posts tagged with "{tag}"</h1>
-  <ul>
-    {posts.map((post: any) => (
-      <li>
-        <Post 
-          url={post.url} 
-          title={post.frontmatter.title}
-          content={post.frontmatter}
-        />
-      </li>
-    ))}
-  </ul>
+<ul class="post-list">
+  {posts.map((post: any) => (
+    <li class="post-item">
+      <div class="post-header">
+        <a href={post.url} class="post-title">{post.frontmatter.title}</a>
+        <span class="post-date">{formatDate(post.frontmatter.pubDate)}</span>
+      </div>
+      <p class="post-description">{post.frontmatter.description}</p>
+    </li>
+  ))}
+</ul>
 </Layout>
