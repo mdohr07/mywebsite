@@ -30,7 +30,7 @@ h6 {
 
 h1 {
   font-size: 1.8rem;
-  line-height: 1.3; /* etwas mehr Platz für große Schrift */
+  line-height: 1.3;
 }
 
 h2 {
@@ -58,7 +58,6 @@ h6 {
   line-height: 1.1;
 }
 
-
 hr {
   height: 1px;
   background-color: #333;
@@ -73,6 +72,13 @@ pre {
 
 body,
 html {
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+  grid-template-areas:
+    "content"
+    "image"
+    "footer";
+
   background-color: #000;
   color: #efefef;
   height: 100%;
@@ -165,6 +171,7 @@ img {
   display: flex;
   justify-content: center;
   text-align: center;
+  grid-area: image;
 }
 
 .centered-image img {
@@ -173,6 +180,10 @@ img {
 }
 
 .layout {
+  display: flex;
+  flex-direction: column;
+  grid-area: content;
+  min-height: 0;
   width: 100%;
   max-width: 900px;
   height: 100%;
@@ -227,7 +238,7 @@ main {
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
-  flex: 1 0 auto;
+  flex: 1;
   box-sizing: border-box;
 }
 
@@ -238,8 +249,7 @@ footer {
   height: 35px;
   border-top: 1px solid #333;
   margin-top: 0;
-  bottom: 0;
-  position: relative;
+  grid-area: footer;
 }
 
 // Start Page //
