@@ -1,8 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
-
 const { content } = Astro.props;
-const { title, pubDate, author, mood, musicTitle, musicUrl } = content;
+
+const { title, pubDate, author, mood, musicTitle, musicUrl, tags } = content;
 
 const formatDate = (pubDate: any) => {
   return new Date(pubDate).toLocaleDateString("de-DE", {
@@ -19,21 +19,34 @@ const date = formatDate(pubDate);
 <Layout>
   <div title={title}>
     <article>
-      <!-- Tags -->
       <slot />
 
-      <section class="meta">
-        <p class="author">
-          <span class="secondary">Verfasst von </span>{author}
-          <span class="secondary">am</span>
-          {date}
-        </p>
-      </section>
-      ---<br />
-      <p>Stimmung: {mood}</p>
-      <p>
-        Musik: <a href={musicUrl} target="_blank" rel="noopener noreferrer">{musicTitle}</a>
+      <p class="author">
+        <span class="secondary-text">Verfasst von </span>{author}
+        <span class="secondary-text">am</span>
+        {date}
       </p>
+
+      <section class="meta">
+        <section class="general">
+          <p>Stimmung: {mood}</p>
+          <p>
+            Musik: <a href={musicUrl} target="_blank" rel="noopener noreferrer">{musicTitle}</a>
+          </p>
+        </section>
+
+        <section class="meta-tags">
+          Tags:
+          {
+            tags &&
+              tags.map((tag: any) => (
+                <p class="meta-tag">
+                  <a href={`/post/tags/${tag}`}>{tag}</a>
+                </p>
+              ))
+          }
+        </section>
+      </section>
     </article>
   </div>
 </Layout>

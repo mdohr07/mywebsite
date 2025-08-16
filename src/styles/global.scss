@@ -79,7 +79,8 @@ html {
     "image"
     "footer";
 
-  background-color: #000;
+  background-image: url('/img/assets/graphics/dithered-image.png');
+  background-size: 300px;
   color: #efefef;
   height: 100%;
   font-size: 1.15rem;
@@ -172,6 +173,7 @@ img {
   display: flex;
   justify-content: center;
   text-align: center;
+  background-color: #000;
   grid-area: image;
 }
 
@@ -191,6 +193,9 @@ img {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  background-color: #000;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
 }
 
 header {
@@ -411,12 +416,56 @@ h1.title {
   box-sizing: border-box;
 }
 
-.meta {
+.secondary-text {
   color: #ccc;
 }
 
-.meta .secondary {
-  color:#666;
+.meta {
+  margin-top: 2rem;
+  border: 1px solid #333;
+  color: #ccc;
+}
+
+.meta .general {
+  padding: 0.5rem 1rem;
+}
+
+.meta .general p {
+  margin: 0.5rem 0;
+}
+
+.meta-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+  border-top: 1px solid #333;
+}
+
+.meta-tag a {
+  margin-right: 0.25em;
+  border: solid 1px #333;
+  border-radius: 0.5em;
+  padding: 0.15em 0.5em;
+  background-color: #111;
+  text-decoration: none;
+}
+
+// Tags Page
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  margin: 0.25em;
+  border: solid 1px #333;
+  border-radius: 0.5em;
+  padding: 0.15em 0.5em;
+  font-size: 1.15em;
+  background-color: #111;
 }
 
 @media (max-width: 820px) {
