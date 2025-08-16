@@ -468,6 +468,7 @@ h1.title {
 
 // Post list on tags page
 .post-list {
+  margin-top: 2rem;
   list-style: none;
   padding: 0;
 }
@@ -476,6 +477,10 @@ h1.title {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #333;
+}
+
+.post-item:last-child {
+  border-bottom: none;
 }
 
 .post-header {

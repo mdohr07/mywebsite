@@ -21,9 +21,11 @@ export async function getStaticPaths() {
 
   // Für jeden Tag eine Route erstellen
   return uniqueTags.map((tag) => {
-    const filteredPosts = allPosts.filter((post: any) =>
-      post.frontmatter.tags.includes(tag)
-    );
+    const filteredPosts = allPosts
+    .filter((post: any) => post.frontmatter.tags.includes(tag))
+    .sort((a:any, b: any) => {
+       return new Date(b.frontmatter.pubDate).getTime() - new Date(a.frontmatter.pubDate).getTime();
+    });
 
     return {
       params: { tag },
