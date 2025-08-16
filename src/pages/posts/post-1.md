@@ -11,7 +11,7 @@ tags: ["astro", "blogging", "learning in public"]
 mood: 'confused'
 musicTitle: 'songname'
 musicUrl: 'https://youtube.com'
-layout: ../../layouts/post.astro
+layout: ../../components/Post.astro
 ---
 
 # My First Blog Post
