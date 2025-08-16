@@ -144,7 +144,8 @@ a {
 }
 
 a:visited {
-  color: #ccc;
+  color: #c39768;
+  text-decoration: none;
 }
 
 a:hover {
@@ -408,6 +409,14 @@ h1.title {
   margin: 0 auto;
   padding: 0rem;
   box-sizing: border-box;
+}
+
+.meta {
+  color: #ccc;
+}
+
+.meta .secondary {
+  color:#666;
 }
 
 @media (max-width: 820px) {

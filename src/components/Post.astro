@@ -22,10 +22,13 @@ const date = formatDate(pubDate);
       <!-- Tags -->
       <slot />
 
-      <p class="author">Verfasst von { author } am { date }</p>
+ 
+      <section class="meta">
+
+      <p class="author">
+        <span class="secondary">Verfasst von </span>{ author } <span class="secondary">am</span> { date }</p>
     </article>
-    ---<br />
-    <section>
+       ---<br />
       <p>Stimmung: { mood }</p>
       <p>
         Musik: <a href={ musicUrl } target="_blank" rel="noopener noreferrer">{ musicTitle }</a>
