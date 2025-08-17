@@ -277,7 +277,7 @@ main {
   width: 100%;
   max-width: 900px;
   margin: 0 auto 2rem;
-  padding: 0.5rem;
+  padding: 0;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -541,6 +541,11 @@ h1.title {
 
   body {
     padding: 0 1.5rem 0 1rem;
+    background-image: none;
+  }
+
+  .layout {
+    border: none;
   }
 
   nav,
