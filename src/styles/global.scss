@@ -238,13 +238,14 @@ header {
   display: flex;
   justify-content: center;
   width: 100%;
+  padding: 0.5rem 1rem;
 }
 
 nav {
   width: 100%;
   max-width: 900px;
   margin: 2rem 0;
-  padding: 10px 0px;
+  padding: 10px;
   text-align: center;
   font-weight: 500;
   border: 1px solid #c39768;
@@ -540,7 +541,6 @@ h1.title {
   }
 
   body {
-    padding: 0 1.5rem 0 1rem;
     background-image: none;
   }
 
@@ -552,6 +552,10 @@ h1.title {
   main,
   footer {
     width: 100%;
+  }
+
+  main {
+    padding: 0 1rem;
   }
 
   .highlight-area {
