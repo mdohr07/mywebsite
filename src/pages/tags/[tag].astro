@@ -2,7 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 
 const formatDate = (pubDate: any) => {
-  return new Date(pubDate).toLocaleDateString("en-US", {
+  return new Date(pubDate).toLocaleDateString("de-DE", {
     day: "numeric",    // 1
     month: "long",     // Juli
     year: "numeric",   // 2022
@@ -38,7 +38,7 @@ const { tag } = Astro.params;
 const { posts } = Astro.props;
 ---
 
-<Layout pageTitle={tag}>
+<Layout pageTitle={tag} lang="de">
   <h1>Posts tagged with "{tag}"</h1>
 <ul class="post-list">
   {posts.map((post: any) => (
