@@ -312,27 +312,6 @@ h1.title {
   padding: 0 1rem;
 }
 
-.terminal-box {
-  font-family: "Source Code Pro", monospace;
-  font-size: 0.9rem;
-  margin: 1rem 0rem;
-  color: var(--gray-666);
-}
-
-.prompt {
-  font-weight: 600;
-}
-
-.output {
-  padding-left: 1rem;
-  margin-bottom: 1rem;
-  color: var(--gray-ccc);
-}
-
-.output::before {
-  content: "> ";
-}
-
 /* Connect */
 .connect-title {
   font-weight: 600;
