@@ -20,7 +20,7 @@
         "swetrix": "^3.5.4"
     },
     "devDependencies": {
-        "@astrojs/sitemap": "^3.2.1",
+        "@astrojs/sitemap": "^3.5.0",
         "astro-compress": "^2.3.6",
         "prettier-plugin-astro": "^0.14.1",
         "sass": "^1.85.1"
