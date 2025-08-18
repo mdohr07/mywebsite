@@ -529,6 +529,27 @@ h1.title {
   color: var(--gray-ccc);
 }
 
+// Latest post list
+.latest-posts {
+  margin: 2rem 0;
+}
+
+.latest-post-list {
+  margin-top: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.latest-post-item {
+  margin-bottom: 1rem;
+  margin-left: -0.5rem;
+  padding-bottom: 0;
+}
+
+li.latest-post-item {
+  list-style-type: none;
+}
+
 @media (max-width: 820px) {
   .label {
     font-size: small;
