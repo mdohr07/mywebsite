@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-
+import { Icon } from "astro/runtime/client/dev-toolbar/ui-library/icons.js";
 import Profile from "../components/Profile.astro";
 import Contact from "../components/Contact.astro";
 import Gallery from "../components/Gallery.astro";
@@ -8,6 +8,7 @@ import Gallery from "../components/Gallery.astro";
 
 <Layout>
   <Profile />
+  <Icon name="coffee" width="20" height="20" /></Layout>
   <Gallery />
   <Contact />
 </Layout>

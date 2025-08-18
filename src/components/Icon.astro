@@ -1,0 +1,12 @@
+---
+interface Props {
+    name: string;
+    width?: string;
+    height?: string;
+}
+
+const { name, width = "24", height = "24" } = Astro.props;
+const iconPath = `/emojis/${name}.png`;
+---
+
+<img src={iconPath} width={width} height={height} alt={name}>
