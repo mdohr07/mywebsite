@@ -566,6 +566,20 @@ li.latest-post-item {
     padding: 0;
     text-align: justify;
   }
+
+  .meta-tags {
+  gap: 0.25rem;
+  padding: 0.5rem;
+}
+
+.meta-tag a {
+  margin-right: 0.25em;
+  padding: 0.075em 0.25em;
+}
+
+p.meta-tag {
+  margin: 0.25rem;
+}
 }
 
 @media (max-width: 555px) {
