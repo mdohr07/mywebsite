@@ -32,7 +32,7 @@ h6 {
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   line-height: 1.3;
 }
 
@@ -136,12 +136,37 @@ ul li {
   padding-left: 0.25rem;
 }
 
+article {
+  text-align: justify;
+}
+
+article h2, 
+article h3,
+article h4,
+article h5,
+article h6 {
+  margin-top: 2.5rem;
+}    
+
+article img {
+  display: inline-block;
+  margin-bottom: -3px;
+}
+
 blockquote {
-  font-size: larger;
-  color: var(--gray-666);
-  background-color: var(--gray-111);
-  border-left: 1px solid var(--gray-333);
-  padding: 0.25rem 1rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  font-style: italic;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--gray-ccc)
+}
+
+figcaption {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+  text-align: center;
+  color: var(--gray-aaa)
 }
 
 .random-quote {
@@ -429,8 +454,14 @@ h1.title {
   box-sizing: border-box;
 }
 
-.secondary-text {
+.author {
   color: var(--gray-ccc);
+  margin-top: -10px;
+  margin-bottom: 2rem;
+}
+
+.secondary-text {
+  color: var(--gray-aaa);
 }
 
 .meta {

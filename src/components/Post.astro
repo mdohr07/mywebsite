@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 const { content } = Astro.props;
 
-const { title, pubDate, author, mood, musicTitle, musicUrl, tags } = content;
+const { title, pubDate, author, mood, music, tags, image } = content;
 
 const formatDate = (pubDate: any) => {
   return new Date(pubDate).toLocaleDateString("de-DE", {
@@ -17,36 +17,37 @@ const date = formatDate(pubDate);
 ---
 
 <Layout>
-  <div title={title}>
-    <article lang="de">
-      <slot />
+  <h1>{title}</h1>
+  <article lang="de">
+    <p class="author">
+      <span class="secondary-text">Verfasst von </span>{author}
+      <span class="secondary-text">am</span>
+      {date}
+    </p>
 
-      <p class="author">
-        <span class="secondary-text">Verfasst von </span>{author}
-        <span class="secondary-text">am</span>
-        {date}
-      </p>
+    <slot />
 
-      <section class="meta">
-        <section class="general">
-          <p>Stimmung: {mood}</p>
-          <p>
-            Musik: <a href={musicUrl} target="_blank" rel="noopener noreferrer">{musicTitle}</a>
-          </p>
-        </section>
+    <!-- <img src={image.url} alt=""> -->
 
-        <section class="meta-tags">
-          Tags:
-          {
-            tags &&
-              tags.map((tag: any) => (
-                <p class="meta-tag">
-                  <a href={`/tags/${tag}`}>{tag}</a>
-                </p>
-              ))
-          }
-        </section>
+    <section class="meta">
+      <section class="general">
+        <p>Stimmung: {mood}</p>
+        <p>
+          Musik: <a href={music.url} target="_blank" rel="noopener noreferrer">{music.title}</a>
+        </p>
       </section>
-    </article>
-  </div>
+
+      <section class="meta-tags">
+        Tags:
+        {
+          tags &&
+            tags.map((tag: any) => (
+              <p class="meta-tag">
+                <a href={`/tags/${tag}`}>{tag}</a>
+              </p>
+            ))
+        }
+      </section>
+    </section>
+  </article>
 </Layout>
