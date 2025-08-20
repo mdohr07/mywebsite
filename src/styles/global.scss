@@ -514,14 +514,15 @@ h1.title {
 /* Post list on tags page */
 .post-list {
   margin-top: 2rem;
-  list-style: none;
   padding: 0;
+  margin-left: -1.25rem;
 }
 
 .post-item {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--gray-333);
+  list-style: none;
 }
 
 .post-item:last-child {
