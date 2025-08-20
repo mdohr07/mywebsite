@@ -3,7 +3,7 @@ layout: ../../components/Post.astro
 
 # Basis-Metadaten
 title: "Wieder hier, aber auf Deutsch"
-description: "A test post to check Markdown rendering with Astro and marked@16.1.2."
+description: "Sprachwechsel im Blog: Warum ich mich für Deutsch entschieden habe, plus Updates zu Umschulung und neuem Website-Design."
 pubDate: 2025-08-20
 author: "mdohr"
 
@@ -14,11 +14,10 @@ image:
 
 # Kategorien & Stimmung
 tags:
-  - astro
-  - testing
-  - marked
-  - blogging
-  - web design
+  - reflexion
+  - persönlich
+  - umschulung
+  - backend
 mood: "entspannt"
 
 # Sonstiges
