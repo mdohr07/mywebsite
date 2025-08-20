@@ -20,7 +20,7 @@ const date = formatDate(pubDate);
   <h1>{title}</h1>
   <article lang="de">
     <p class="author">
-      <span class="secondary-text">Verfasst von </span>{author}
+      <span class="secondary-text">Verfasst von</span>{author}
       <span class="secondary-text">am</span>
       {date}
     </p>
@@ -33,7 +33,15 @@ const date = formatDate(pubDate);
       <section class="general">
         <p>Stimmung: {mood}</p>
         <p>
-          Musik: <a href={music.url} target="_blank" rel="noopener noreferrer">{music.title}</a>
+          Musik: {
+            music.url ? (
+              <a href={music.url} ? target="_blank" rel="noopener noreferrer">
+                {music.title}
+              </a>
+            ) : (
+              music.title
+            )
+          }
         </p>
       </section>
 
