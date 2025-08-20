@@ -1,3 +1,5 @@
+**20.08.2025 13:13** Wrote my first blog post in German. On my website.
+
 **13.07.2025 15:13** Too hot outside...
 
 **25.07.2025 21:07** There are two new links within a new section on the links-list now :D
