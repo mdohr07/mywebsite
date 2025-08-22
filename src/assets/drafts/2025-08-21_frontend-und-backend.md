@@ -133,4 +133,17 @@ Jetzt kann man mir natürlich unterstellen, dass ich weniger gern im Backend arb
 
 Ich schließe nicht aus, dass ich im Laufe der Zeit noch eine Liebe für das Backend entwickle, aber bisher habe ich nur immer wieder gemerkt - gerade während des Projekts - dass ich im Frontend mehr Spaß habe und geduldiger damit bin.
 
-Ein Dozent sagte diese Woche zu mir, dass er sich gar nicht so sicher ist, ob das Frontend nicht mittlerweile sogar schwieriger ist als das Backend, weil man es mit vielen unterschiedlichen Sprachen und Technologien zu tun hat, Logik-basiert und anderweitig. Und auch weil Tools und Technologien ständig erneuert werden und immer wieder was dazu kommt. Wie vorhin schon gesgagt: es kommt immer auf den Fall an. Aber ich hatte tatsächlich gerade gestern einen dieser Fälle, dass sich plötzlich etwas ändert und ich den Code von vor-vorgestern anpassen musste.
+Ein Dozent sagte diese Woche zu mir, dass er sich gar nicht so sicher ist, ob das Frontend nicht mittlerweile sogar schwieriger ist als das Backend, weil man es mit vielen unterschiedlichen Sprachen und Technologien zu tun hat, Logik-basiert und anderweitig. Und auch weil Tools und Technologien ständig erneuert werden und immer wieder was dazu kommt. Wie vorhin schon gesgagt: es kommt immer auf den Fall an. Aber ich hatte tatsächlich gerade gestern einen dieser Fälle, dass sich plötzlich etwas ändert und ich den Code von vor-vorgestern anpassen musste. Zum Glück handelte es sich nur um eine Zeile Code in zwei Dateien.
+
+```
+const allPosts = await Astro.glob("../pages/posts/*.md");
+```
+<figcaption>Alte Syntax von Astro</figcaption>
+
+
+```
+const modules = import.meta.glob("../pages/posts/*.md", { eager: true });
+```
+<figcaption>Neue Syntax von Vite anstatt Astro</figcaption>
+
+Aber mein Fazit soweit: ich mag die pixelgenaue Anpassung, das Umsetzen der Darstellung, das Gefühl von Flexibilität, die Mischung - ich sehe nicht den ganzen Tag besipielsweise nur C# - und ich mag, dass ich sofort meine Ergebnisse sehen kann.
