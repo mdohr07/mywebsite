@@ -9,7 +9,7 @@ author: "mdohr"
 
 # Medien
 image:
-  url: "/img/assets/blog/2025-08/Screenshot 2025-08-23.png"
+  url: "/img/assets/blog/2025-08/Screenshot_2025-08-23.png"
   alt: "JSX document view in VS Code with the Terminal in the bottom"
 
 # Kategorien & Stimmung
@@ -138,7 +138,7 @@ Ich schließe nicht aus, dass ich im Laufe der Zeit noch eine Liebe für das Bac
 
 <img src="/img/assets/blog/2025-08/meme-dev-humor-when-i-started-to-code-vs-now-303.jpg" alt="dev Meme">
 
-Ein Dozent sagte diese Woche zu mir, dass er sich gar nicht so sicher ist, ob das Frontend nicht mittlerweile sogar schwieriger ist als das Backend, weil man es mit vielen unterschiedlichen Sprachen, Frameworks und Technologien zu tun hat, Logik-basiert und anderweitig. Und auch weil Tools und Technologien ständig erneuert werden und immer wieder was dazu kommt. Wie vorhin schon gesgagt: es kommt immer auf den Kontext an. Aber ich hatte tatsächlich gerade gestern einen dieser Fälle, dass sich plötzlich etwas ändert und ich den Code von vor-vorgestern anpassen musste. Zum Glück handelte es sich nur um eine Zeile Code in zwei Dateien.
+Ein Dozent sagte diese Woche zu mir, dass er sich gar nicht so sicher ist, ob das Frontend nicht mittlerweile sogar schwieriger ist als das Backend, weil man es mit vielen unterschiedlichen Sprachen, Frameworks und Technologien zu tun hat, Logik-basiert und anderweitig. Und auch weil Tools und Technologien ständig erneuert werden und immer wieder was dazu kommt. Wie vorhin schon gesagt: es kommt immer auf den Kontext an. Aber ich hatte tatsächlich gerade gestern einen dieser Fälle, dass sich plötzlich etwas ändert und ich den Code von vor-vorgestern anpassen musste. Zum Glück handelte es sich nur um eine Zeile Code in zwei Dateien.
 
 ```js
 const allPosts = await Astro.glob("../pages/posts/*.md");
