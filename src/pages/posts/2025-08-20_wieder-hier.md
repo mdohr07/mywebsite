@@ -26,6 +26,8 @@ music:
   url: ""
 ---
 
+"hö?" und 'hä?'
+
 So, da bin ich wieder! Und gar nicht auf Englisch - wie selten! Mein letzter Blog Eintrag liegt schon eine Weile zurück. 
 Es hat sich seither einiges getan, aber das alles in diesen einen Beitrag zu stopfen, wäre etwas zu viel des Guten. Ehrlich: so gut ist mein Gedächtnis auch nicht.
 Nach einigen Überlegungen habe ich beschlossen, meinen Modus Operandi zu ändern.

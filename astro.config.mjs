@@ -13,7 +13,17 @@ export default defineConfig({
   prefetch: false,
   markdown: {
     remarkPlugins: [
-      [remarkSmartypants, { quotes: '„“‚‘' }]
+      [remarkSmartypants, {
+         quotes: true,
+         openingQuotes: {
+          double: '„',
+          single: '‚'
+        },
+        closingQuotes: {
+          double: '“',
+          single: '‘'
+        }
+         }]
     ],
     syntaxHighlight: 'shiki',
     shikiConfig: {
