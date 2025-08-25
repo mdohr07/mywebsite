@@ -1,3 +1,5 @@
+**25.08.2025 21:01** My blog does German quotation marks automatically now :-)
+
 **20.08.2025 13:13** Wrote my first blog post in German. On my website.
 
 **13.07.2025 15:13** Too hot outside...
