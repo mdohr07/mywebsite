@@ -17,6 +17,7 @@
         "marked": "16.1.2",
         "preact": "^10.27.0",
         "remark": "^15.0.1",
+        "remark-smartypants": "^3.0.2",
         "shiki": "^3.1.0",
         "swetrix": "^3.5.4"
     },

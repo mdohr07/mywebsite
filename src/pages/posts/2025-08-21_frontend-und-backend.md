@@ -42,7 +42,7 @@ Ich glaube die Formulierung lässt schon ein bisschen was durchblicken.
 Für Vertiefung von Themen ist in der Umschulung wenig Zeit, denn nach zwei Jahren sollen wir ja schon fertig sein und dazwischen liegen noch Zeitfresser, die von der Handelskammer gefordert werden, für den zukünftigen Beruf aber nicht so richtig ausschlaggebend sind. Die Sprachen, die wir hier am meisten gelernt haben, waren mit Java und C# Backend-Sprachen. Jetzt gegen Ende haben wir auch TypeScript verwendet, weil wir in unseren Gruppenprojekten C# mit .NET in Kombination mit Angular nutzen sollten und Angular verwendet TypeScript. Auch im Praktikum werde ich TypeScript brauchen.
 
 Gut die Hälfte der Umschulung ist mittlerweile vorbei. 
-Innerhalb meiner Klasse ist das Frontend insgesamt nicht gerade beliebt - der Großteil will ins Backend, das Frontend wurde dabei auch schon mal als "Gedöns" und "Hübsch, kann aber nichts" abgetan.
+Innerhalb meiner Klasse ist das Frontend insgesamt nicht gerade beliebt - der Großteil will ins Backend, das Frontend wurde dabei auch schon mal als „Gedöns“ und „Hübsch, kann aber nichts“ abgetan.
 
 <img src="/img/assets/blog/2025-08/css-meme.jpg" alt="CSS Meme">
 
@@ -54,7 +54,7 @@ Es ist nicht so, dass mich während dieser Zeit das Backend nicht interessiert h
 
 Wenn man tiefer sucht - zum Beispiel online in Diskussionen unter Developern - findet man natürlich auch andere Meinungen. Die einen finden dies schwerer, die anderen das. Viele Backend-Menschen scheinen das Frontend vor allem als lästig zu empfinden. Das stellte sich bei Unterhaltungen heraus, die ich persönlich mit anderen hatte, die teilweise auch schon länger dabei sind. Man findet auch heraus - wenn man es sich nicht schon so gedacht hat -, dass es nicht ganz so schwarz und weiß ist, wie manche es gern darstellen. Frontend und Backend haben natürlich jeweils ihre eigenen Herausforderungen, wobei man nicht einfach stumpf sagen kann, dass das eine schwieriger ist als das andere. Wie immer: es kommt drauf an. Auf das Projekt, den Umfang und nicht zu vergessen auf das Individuum und Vorlieben. 
 
-Jemand aus meinem zukünftigen Praktikumsbetrieb (Backend-Bereich) fragte mich, ob ich auch in anderen Aspekten gerne detailorientiert arbeite. Dazu sagte ich "ja" und sie antwortete, dass ich deswegen auch das Frontend mag. Kann sein, dass sie recht hatte. Aber zu "warum ich Frontend mag" später mehr (oh nein, noch ein Spoiler).
+Jemand aus meinem zukünftigen Praktikumsbetrieb (Backend-Bereich) fragte mich, ob ich auch in anderen Aspekten gerne detailorientiert arbeite. Dazu sagte ich „ja“ und sie antwortete, dass ich deswegen auch das Frontend mag. Kann sein, dass sie recht hatte. Aber zu „warum ich Frontend mag“ später mehr (oh nein, noch ein Spoiler).
 
 ## Was Frontend Entwicklung wirklich bedeutet
 
@@ -88,7 +88,7 @@ const posts = allPosts.sort((a: any, b: any) => {
 ```
 <small>So werden die Blogposts auf meiner Seite hier geladen</small>
 
-In unserem Gruppenprojekt bei der Umschulung vor kurzem, musste ich einige der im Backend bereits vorhandenen Logik und Validierungen auch im Frontend umsetzen. Natürlich ist die Syntax eine andere und das Frontend gilt als "zugänglicher". Das liegt wahrscheinlich daran, dass man direkt sehen kann, was man gemacht hat, ob es klappt und die Interaktion so leichter fällt.
+In unserem Gruppenprojekt bei der Umschulung vor kurzem, musste ich einige der im Backend bereits vorhandenen Logik und Validierungen auch im Frontend umsetzen. Natürlich ist die Syntax eine andere und das Frontend gilt als „zugänglicher“. Das liegt wahrscheinlich daran, dass man direkt sehen kann, was man gemacht hat, ob es klappt und die Interaktion so leichter fällt.
 
 ```ts
 @Component({
@@ -126,7 +126,6 @@ export class Details {
     }
   }
 }
-
 ```
 <small>Ein Auszug aus einer Projekt-Datei in TypeScript</small>
 
