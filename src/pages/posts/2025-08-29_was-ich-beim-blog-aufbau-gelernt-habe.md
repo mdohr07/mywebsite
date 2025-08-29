@@ -52,7 +52,7 @@ Die Seite, wie sie jetzt ist, habe ich nicht von null auf gebaut, sondern ein Te
 
 <img src="/img/assets/blog/2025-08/preview-about.png" alt="Screenshot devidev.io Template">
 
-Was ich unter anderem - abgesehen von den offensichtlichen, optischen Änderungen - ergänzend gemacht habe:
+Was ich unter Aanderem - abgesehen von den offensichtlichen, optischen Änderungen - ergänzend gemacht habe:
 
 - RSS Feed implementieren
 - Robots und Update von Sitemap
@@ -61,24 +61,25 @@ Was ich unter anderem - abgesehen von den offensichtlichen, optischen Änderunge
 - Status Log und Now als Markdown
 - Alle Abhängigkeiten auf den neusten Stand gebracht
 - Tailwind entfernt <img src="/emojis/hide.png">
+- Zufällige Zitate auf der Startseite
   
 ## Zum neuen Look
 
-Die Idee: ein Hauch von Gothic. Generell mag ich die Goth-Ästhetik, auch wenn eher die etwas unterschwelligere Variante. Außerdem bin ich jetzt bereit für Herbst und Halloween. Ich würde nie behaupten "das Design bleibt jetzt so", weil ich mich ja kenne. Ich habe also ein paar subtile Gothic-Elemente eingebracht, zum Beispiel die Schriftart in den Überschriften. Hintergründe sind wie gewohnt schwarz. Als Akzentfarbe habe ich ein goldiges Beige gewählt. Häufiger verwendete Farben zur Hervorhebung wären hier rot, grau oder Lila gewesen, aber ich wollte lieber etwas wärmeres und ruhigeres. Mit Hintergrundbildern habe ich ein bisschen herumprobiert, hauptsächlich mit hübschen Mustern. Das wirkte aber irgendwie zu unruhig und ich war nicht zufrieden. Am Ende wurde es eine Textur.
-Ich habe auch noch die Cursor dementsprechend angepasst. Insgesamt bin ich jetzt erstmal zufrieden.
+Die Idee: ein Hauch von Gothic. Generell mag ich die Goth-Ästhetik, auch wenn eher die etwas unterschwelligere Variante. Außerdem bin ich jetzt bereit für Herbst und Halloween. Ich würde nie behaupten "das Design bleibt jetzt so", weil ich mich ja kenne. Ich habe also ein paar subtile Gothic-Elemente eingebracht, zum Beispiel die Schriftart in den Überschriften. Hintergründe sind wie gewohnt schwarz. Als Akzentfarbe habe ich ein goldiges Braun gewählt. Häufiger verwendete Farben zur Hervorhebung wären hier typischerweise rot, grau oder Lila gewesen, aber ich wollte lieber etwas Wärmeres und Ruhigeres. Mit Hintergrundbildern habe ich ein bisschen herumprobiert, hauptsächlich mit hübschen Mustern. Das wirkte aber irgendwie zu unruhig und ich war nicht zufrieden. Am Ende wurde es eine Textur.
+Ich habe auch noch die Cursor dementsprechend angepasst. Insgesamt bin ich jetzt erstmal glücklich mit dem Aussehen meiner Seite.
 
 <img src="/img/assets/blog/2025-08/arc-min.png">
 
 ## Bin ich schlauer geworden?
 
-Vielleicht! Wie gesagt habe ich schon mehrere Versuche mit Astro gehabt und bei diesem Mal - nach einer Weile Abstand - fühlte es sich einfacher an. Vor manchen Dingen gruselte es mich schon, weil ich noch wusste, dass ich damit schon einmal Probleme hatte. Gerade was Blogposts und Tags anging. Dieses Mal ging alles fast reibungslos. Ich glaube schon, dass ich "besser" geworden bin, aber jetzt gibt es ja auch Astro 5. Was genau da alles geändert wurde, weiß ich gar nicht. Aber ich glaube, dass das einbinden von RSS dieses Mal um einiges leichter war. Es wird eine Mischung aus beidem sein: Astro hat Verbesserungen bekommen und ich habe dazu gelernt.
+Vielleicht! Wie gesagt habe ich schon mehrere Versuche mit Astro gehabt und bei diesem Mal - nach einer Weile Abstand - fühlte es sich einfacher an. Vor manchen Dingen gruselte es mich schon, weil ich noch wusste, dass ich damit schon einmal Probleme hatte. Gerade was Blogposts und Tags anging. Dieses Mal ging alles fast reibungslos. Ich glaube schon, dass ich "besser" geworden bin, aber jetzt gibt es ja auch Astro 5. Was genau da alles geändert wurde, weiß ich gar nicht. Aber ich glaube, dass das einbinden von RSS dieses Mal um Einiges leichter war. Es wird eine Mischung aus beidem sein: Astro hat Verbesserungen bekommen und ich habe dazu gelernt.
 
 ## Was ich gelernt habe
 
 Dass man mit Git auf Branches arbeiten kann, was das ist und wie es geht, davon hatte ich vorher schon ein allgemeines Verständnis. Aber während des Gruppenprojekts musste ich mich dann auch wirklich damit auseinandersetzen. Bisher habe ich für mich selbst immer auf einem Branch gearbeitet, aber in einem Team ist das wirklich keine gute Idee.
 
 <p style="margin-left: 2rem;">
-<b>Kurze erklärung zu Branches:</b> Git verwaltet Versionen - zum Beispiel von Software. Oder von dieser Website. Der Hauptbranch heißt "main" (oder manchmal noch "master"), den will man möglichst sauber und vor allem heile halten. Von main - oder jedem anderen Branch - kann man neue Branches (Zweige) erstellen. Auf diesem Branch kann man dann arbeiten, ohne dass irgendetwas mit main passiert. Erst wenn  man sich sicher ist, dass auf dem Arbeits-Branch alle läuft und geplante Ziele erreicht wurden, kann man die Branches zusammenführen (also alles auf main).
+<b>Kurze erklärung zu Branches:</b> Git verwaltet Versionen - zum Beispiel von Software. Oder von dieser Website. Innerhalb von Git kann man "Zweige" (branches) von dem Projekt erstellen. Wie ein Klon des Projekts, auf dem man weiter arbeiten kann. Der Hauptbranch heißt "main" (oder manchmal noch "master"), den will man möglichst sauber und vor allem heile halten. Von main - oder jedem anderen Branch - kann man neue Branches erstellen. Auf einem Branch (der nicht main ist) kann man dann arbeiten, ohne dass irgendetwas mit main passiert. Erst wenn man sich sicher ist, dass auf dem Arbeits-Branch alles läuft und geplante Ziele erreicht wurden, kann man die Branches zusammenführen (also alles auf main).
 </p>
 
 ```bash
