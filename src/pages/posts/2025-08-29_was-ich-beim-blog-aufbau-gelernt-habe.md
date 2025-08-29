@@ -4,7 +4,7 @@ layout: ../../components/Post.astro
 # Basis-Metadaten
 title: "Was ich beim Aufbau meines Blogs gelernt habe"
 description: "Ein Rückblick auf meine Erfahrungen beim Aufbau meines Blogs und meine Lernfortschritte mit Astro, Angular, React und Git"
-pubDate: 2025-08-23
+pubDate: 2025-08-29
 author: "mdohr"
 
 # Medien
@@ -21,8 +21,9 @@ mood: "Faul"
 
 # Sonstiges
 music:
-  title: "keine"
-  url: ""
+  title: "Before the rain falls"
+  artist: "Deadlife"
+  url: "https://youtu.be/V5S-JNmP5E0?si=2sDKIrboUGmo6AyZ"
 ---
 
 Nachdem ich wieder ein paar Wochen am neuen Design getüftelt habe, heute meine Gedanken dazu in Form dieses Beitrags. Ich weiß, ich ändere Designs oft - zumindest die Farben. Meist gefällt mir meine Website dunkel am besten. Jetzt hatte ich für lange Zeit eine Art Terminal-Look mit Monospace Schriftart. Das Design meiner Seite ist oft auch ein bisschen stimmungsabhängig, genau wie die Wahl meiner Kleidung.
