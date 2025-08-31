@@ -1,3 +1,5 @@
+**29.08.2025 16:08** I made a cool new favicon 8D
+
 **29.08.2025 13:33** Tomorrow the internship starts! o_o
 
 **25.08.2025 21:01** My blog does German quotation marks automatically now :-)
