@@ -1,3 +1,5 @@
+**29.09.2025 15:38** Made it through the first week of the internship :3
+
 **29.08.2025 16:08** I made a cool new favicon 8D
 
 **29.08.2025 13:33** Tomorrow the internship starts! o_o
