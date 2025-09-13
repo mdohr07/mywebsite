@@ -32,7 +32,7 @@ Leider hatte ich die Woche über keine Zeit zum Schreiben, aber jetzt ist Wochen
 
 Mir wurde gesagt, dass ich diese Woche etwas anderes zu tun bekomme und so war es dann auch. Ich habe ein Test-Projekt bekommen, um den im Team verwendeten Tech-Stack kennen zu lernen und auszuprobieren. 
 
-TypeScript mit React war mir ja schon bewusst, dazu kommt zum einen **Gulp**. Von Gulp hatte ich schon gehört, aber mich nie damit auseinandergesetzt. Jetzt weiß ich: es ist ein "Task Runner", der, Zitat: "...in der Frontend-Entwicklung und beim Webdesign bei der Automatisierung von Prozessen und wiederkehrenden Aufgaben hilft." Außer es zu installieren und die Anwendung lokal per gulp serve Kommando auszuführen, hatte ich noch nicht weiter damit zu tun.
+TypeScript mit React war mir ja schon bewusst, dazu kommt zum einen **Gulp**. Von Gulp hatte ich schon gehört, aber mich nie damit auseinandergesetzt. Jetzt weiß ich: es ist ein "Task Runner", der, Zitat: "...in der Frontend-Entwicklung und beim Webdesign bei der Automatisierung von Prozessen und wiederkehrenden Aufgaben hilft." Außer es zu installieren und die Anwendung lokal per `gulp serve` Kommando auszuführen, hatte ich noch nicht weiter damit zu tun.
 
 <blockquote>
 Gulp.js basiert auf Node.js und ist mit Grunt verwandt. Mit Gulp.js kam 2013 eine Software auf den Markt, die als sogenannter „Task Runner“ oder „Streaming Bulid System“ in der Frontend-Entwicklung und beim Webdesign bei der Automatisierung von Prozessen und wiederkehrenden Aufgaben hilft.
