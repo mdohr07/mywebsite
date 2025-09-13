@@ -3,27 +3,28 @@ layout: ../../components/Post.astro
 
 # Basis-Metadaten
 title: "Die zwweite Praktikumswoche"
-description: "Zweite Woche im IT-Praktikum geschafft"
+description: "In diesem Blogpost reflektiere ich meine zweite Praktikumswoche und meine ersten Erfahrungen mit neuen Technologien und Tools."
 pubDate: 2025-09-13
 author: "mdohr"
 
 # Medien
 image:
-  url: ""
-  alt: ""
+  url: "/img/assets/blog/2025-09/kaffeeklatsch.jpg"
+  alt: "Ein quadratischer Holztisch, Kaffee in Pappbechern und ein Red Bull"
 
 # Kategorien & Stimmung
 tags:
   - praktikum
-  - rennrad
-  - gesundheit
-mood: "Inspiriert"
+  - reflexion
+  - persönlich
+  - frontend
+mood: "Melancholisch"
 
 # Sonstiges
 music:
-  title: "夜のカーテン (Night Curtain)"
-  artist: "CHILL CITY POP"
-  url: "https://www.youtube.com/watch?v=Rh7u_cbAiZc&list=RDRh7u_cbAiZc&index=1&t=1140s"
+  title: "Hearts In Standby"
+  artist: "Moebius FM"
+  url: "https://moebiusfm.bandcamp.com/track/hearts-in-standby"
 ---
 Leider hatte ich die Woche über keine Zeit zum Schreiben, aber jetzt ist Wochenende und ich bin wieder da! Da sonst nicht viel zu berichten ist, schreibe ich heute wieder über mein Praktikum. Woche zwei ist rum und hier folgt meine Zusammenfassung.
 
@@ -87,6 +88,8 @@ Mit meinem ersten Sprint bin ich aber trotzdem ganz gut voran gekommen, das Feed
 
 ## Ein etwas anderer Tag
 
+<img src="/img/assets/blog/2025-09/kaffeeklatsch.jpg">
+
 Am Freitag herrschte Ausnahmezustand, weil ein Firmen-Internes Event stattfand. Dafür hatte ich mich rechtzeitig angemeldet, denn nur wer angemeldet ist kommt auch rein. Das Event findet jährlich statt und geht über den ganzen Arbeitstag, ab Nachmittags gibt es Bier. Bis dahin kann man an Workshops teilnehmen und Vorträgen lauschen. Für diese meldet man sich ebenfalls rechtzeitig an. Bei Vorträgen ist es meist unkritisch, aber besonders Workshops haben oft eine begrenzte Teilnehmerzahl.
 
 Ich hatte mich für einen Workshop zu KI und Design angemeldet, aber leider wurde mir abgesagt, da es schon voll war. Dann habe ich mich aus der No heraus für einen Vortrag angemeldet. 
@@ -95,4 +98,4 @@ Es war nett, wieder ein bisschen mit meinen Klassenkamerad:innen quatschen zu k�
 Mein Programm war wie folgt: Morgens ein Workshop zu nachhaltiger UX (Benutzererfahrung), dann zwei Vorträge an denen ich eigentlich nur mäßig interessiert war und zum Schluss einen Vortrag zu ADHS in der Programmierung, an der ich wiederum sehr interessiert war. Also Anfang und Ende fand ich sehr gut, der Mittelteil war eher ein Filler. Außerdem kostenloses Essen und kostenloses Trinken. Ich hatte für meine Verhältnisse viel Kaffee (zu dem es neben Kuhmilch auch Hafermilch gab), ein fettes Sandwich und zum Abschluss: Kuchen! Bier hatte ich keines und bin stattdessen nach Hause gefahren.
 
 Also, es war eine interessante Woche.
-Bis demnächst.
+Bis demnächst!
