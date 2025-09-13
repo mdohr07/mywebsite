@@ -2,7 +2,7 @@
 layout: ../../components/Post.astro
 
 # Basis-Metadaten
-title: "Die zwweite Praktikumswoche"
+title: "Die zweite Praktikumswoche"
 description: "In diesem Blogpost reflektiere ich meine zweite Praktikumswoche und meine ersten Erfahrungen mit neuen Technologien und Tools."
 pubDate: 2025-09-13
 author: "mdohr"
