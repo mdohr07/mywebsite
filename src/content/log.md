@@ -1,4 +1,6 @@
-**29.09.2025 15:38** Made it through the first week of the internship :3
+**13.09.2025 13:05** So sleepy. But I'll try to write a blog entry
+
+**06.09.2025 15:38** Made it through the first week of the internship :3
 
 **29.08.2025 16:08** I made a cool new favicon 8D
 
