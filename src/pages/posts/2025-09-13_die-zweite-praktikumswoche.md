@@ -68,6 +68,8 @@ Yup-Schemas sind äußerst ausdrucksstark und ermöglichen die Modellierung komp
 
 ## Freud und Leid beim Implementieren
 
+<img src="/img/assets/blog/2025-09/kaffeeklatsch.jpg" alt="Ein quadratischer Holztisch mit Kaffee in Pappbechern und einem Red Bull">
+
 Klingt irgendwie dramatisch - find ich gut. Ist es aber nicht wirklich. Also wie gesagt, ein paar Dinge sind für mich noch ziemlich mysteriös und fühlen sich noch irgendwie hakelig an. Ich musste ein paar Dokumentationen lesen um weiter zu kommen, doch einige Dokumentationen schienen irgendwie unvollständig. Das ist ein Punkt, der mich ein wenig frustriert hat.
 
 Also, mit der Dokumentation von *Astro* <img src="/emojis/heart_melts.png"> kann bisher keiner mithalten.

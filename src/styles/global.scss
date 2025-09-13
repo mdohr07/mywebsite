@@ -84,10 +84,10 @@ pre {
 
 /* Inline code */
 code:not(pre code) {
-  // background-color: #333;
-  // border-radius: 4px;
-  // padding: 3px 5px;
-  // color: red;
+  background-color: #111;
+  border-radius: 4px;
+  padding: 3px 5px;
+  color: red;
   white-space: normal;
   word-break: break-all; /* Auch mitten in Wörtern umbrechen wenn nötig */
 }
