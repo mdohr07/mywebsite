@@ -617,9 +617,9 @@ li.latest-post-item {
     text-align: left;
   }
 
-  h1 {
-    font-size: 1.5rem;
-  }
+  // h1 {
+  //   font-size: 1.5rem;
+  // }
 
   pre,
   code {
@@ -689,9 +689,9 @@ li.latest-post-item {
 }
 
 @media (max-width: 555px) {
-  h1 {
-    font-size: 1.2rem;
-  }
+  // h1 {
+  //   font-size: 1.2rem;
+  // }
 
   .meta-tags {
     flex-direction: column;
