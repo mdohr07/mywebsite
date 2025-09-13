@@ -88,8 +88,6 @@ Mit meinem ersten Sprint bin ich aber trotzdem ganz gut voran gekommen, das Feed
 
 ## Ein etwas anderer Tag
 
-<img src="/img/assets/blog/2025-09/kaffeeklatsch.jpg" style="width:100%">
-
 Am Freitag herrschte Ausnahmezustand, weil ein Firmen-Internes Event stattfand. Dafür hatte ich mich rechtzeitig angemeldet, denn nur wer angemeldet ist kommt auch rein. Das Event findet jährlich statt und geht über den ganzen Arbeitstag, ab Nachmittags gibt es Bier. Bis dahin kann man an Workshops teilnehmen und Vorträgen lauschen. Für diese meldet man sich ebenfalls rechtzeitig an. Bei Vorträgen ist es meist unkritisch, aber besonders Workshops haben oft eine begrenzte Teilnehmerzahl.
 
 Ich hatte mich für einen Workshop zu KI und Design angemeldet, aber leider wurde mir abgesagt, da es schon voll war. Dann habe ich mich aus der No heraus für einen Vortrag angemeldet. 
