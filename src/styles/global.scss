@@ -17,6 +17,7 @@
   --gray-efef: #efefef;
   --gold: #c39768;
   --white: #fff;
+  --code-color: #F54927;
 }
 
 h1,
@@ -87,7 +88,7 @@ code:not(pre code) {
   background-color: #111;
   border-radius: 4px;
   padding: 3px 5px;
-  color: #F54927;
+  color: var(--code-color);
   white-space: normal;
   word-break: break-all; /* Auch mitten in Wörtern umbrechen wenn nötig */
 }
@@ -182,6 +183,10 @@ article img {
   margin-bottom: -3px;
   width: fit-content;
   max-width: 100%;
+}
+
+article img.full-width {
+  width: 100%;
 }
 
 blockquote {
@@ -508,7 +513,7 @@ h1.title {
 .meta {
   margin-top: 2rem;
   border: 1px solid var(--gray-333);
-  color: var(--gray-ccc);
+  color: var(--gray-666);
 }
 
 .meta .general {
