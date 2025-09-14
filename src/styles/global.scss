@@ -165,7 +165,6 @@ ul li {
 
 article {
   display: flex;
-  text-align: justify;
   flex-direction: column;
 }
 
@@ -175,6 +174,10 @@ article h4,
 article h5,
 article h6 {
   margin-top: 2.5rem;
+}
+
+article p {
+    text-align: justify;
 }
 
 article img {
@@ -621,10 +624,6 @@ li.latest-post-item {
   .blog-container {
     background-image: none;
     padding: 1rem;
-  }
-
-  article {
-    text-align: left;
   }
 
   pre,
