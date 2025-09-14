@@ -58,7 +58,7 @@ Das offizielle Frontend-Framework für die Entwicklung von Anwendungen, die sich
 *Übersetzt von [developer.microsoft.com](https://developer.microsoft.com/en-us/fluentui#/)*
 </blockquote>
 
-Und dann ist da noch **Yup**. Nicht zu verwechseln mit Nope. Solche Namen liebe ich ja, kein Witz. Von Nope weiß ich nur, weil ich etwas Recherche betreiben musste und wenn ich nur nach der Bennenung wählen müsste, würde ich jetzt gern Nope benutzen. Kurz und einfach ausgedrückt ist Yup für Validierung von Daten da. Laut Website ist Yup ein Yup ist ein "Schema-Builder für die Analyse und Validierung von Laufzeitwerten".
+Und dann ist da noch **Yup**. Nicht zu verwechseln mit Nope. Solche Namen liebe ich ja, kein Witz. Von Nope weiß ich nur, weil ich etwas Recherche betreiben musste und wenn ich nur nach der Bennenung wählen müsste, würde ich jetzt gern Nope benutzen. Kurz und einfach ausgedrückt ist Yup für Validierung von Daten da. Laut Website ist Yup ein "Schema-Builder für die Analyse und Validierung von Laufzeitwerten".
 
 <blockquote>
 Yup-Schemas sind äußerst ausdrucksstark und ermöglichen die Modellierung komplexer, voneinander abhängiger Validierungen oder Wertetransformationen.
@@ -67,8 +67,6 @@ Yup-Schemas sind äußerst ausdrucksstark und ermöglichen die Modellierung komp
 </blockquote>
 
 ## Freud und Leid beim Implementieren
-
-<img src="/img/assets/blog/2025-09/kaffeeklatsch.jpg" alt="Ein quadratischer Holztisch mit Kaffee in Pappbechern und einem Red Bull">
 
 Klingt irgendwie dramatisch - find ich gut. Ist es aber nicht wirklich. Also wie gesagt, ein paar Dinge sind für mich noch ziemlich mysteriös und fühlen sich noch irgendwie hakelig an. Ich musste ein paar Dokumentationen lesen um weiter zu kommen, doch einige Dokumentationen schienen irgendwie unvollständig. Das ist ein Punkt, der mich ein wenig frustriert hat.
 
@@ -89,6 +87,8 @@ Zweitens startet das Ding wirklich, wirklich langsam. Und das scheint auch norma
 Mit meinem ersten Sprint bin ich aber trotzdem ganz gut voran gekommen, das Feedback war zwar verhalten aber positiv. Trotz ein paar nervigen Kleinigkeiten hat mir die Arbeit am Test-Projekt bisher Spaß gemacht. Ich habe gern herumgetüftelt und ich mag es, Neues dazu zu lernen. Im Büro fühleich mich leider immer noch nicht so ganz wohl. Das liegt zu einem Großteil daran, dass ich keinen wirklichen eigenen Platz habe und das wird wohl auch so bleiben. Ich habe mich einigermaßen eingerichtet, aber es ist trotzdem nicht *mein* Platz und das fühle ich. Diese Woche war ich aber mehr im Homeoffice und dann ist es für mich gemütlicher. Außerdem spare ich mir natürlich An- und Abreise. Andererseits quatsche ich aber auch gern mit den anderen Leuten die sich vor Ort aufhalten und das fällt im Homeoffice wiederum weg.
 
 ## Ein etwas anderer Tag
+
+<img src="/img/assets/blog/2025-09/kaffeeklatsch.jpg" alt="Ein quadratischer Holztisch mit Kaffee in Pappbechern und einem Red Bull">
 
 Am Freitag herrschte Ausnahmezustand, weil ein Firmen-Internes Event stattfand. Dafür hatte ich mich rechtzeitig angemeldet, denn nur wer angemeldet ist kommt auch rein. Das Event findet jährlich statt und geht über den ganzen Arbeitstag, ab Nachmittags gibt es Bier. Bis dahin kann man an Workshops teilnehmen und Vorträgen lauschen. Für diese meldet man sich ebenfalls rechtzeitig an. Bei Vorträgen ist es meist unkritisch, aber besonders Workshops haben oft eine begrenzte Teilnehmerzahl.
 

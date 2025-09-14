@@ -87,7 +87,7 @@ code:not(pre code) {
   background-color: #111;
   border-radius: 4px;
   padding: 3px 5px;
-  color: red;
+  color: #F54927;
   white-space: normal;
   word-break: break-all; /* Auch mitten in Wörtern umbrechen wenn nötig */
 }
@@ -541,6 +541,7 @@ h1.title {
 .tags {
   display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .tag {
@@ -550,6 +551,10 @@ h1.title {
   padding: 0.15em 0.5em;
   font-size: 1.15em;
   background-color: var(--gray-111);
+}
+
+.tag a {
+  text-decoration: none;;
 }
 
 /* Post list on tags page */
@@ -616,10 +621,6 @@ li.latest-post-item {
   article {
     text-align: left;
   }
-
-  // h1 {
-  //   font-size: 1.5rem;
-  // }
 
   pre,
   code {
@@ -689,9 +690,6 @@ li.latest-post-item {
 }
 
 @media (max-width: 555px) {
-  // h1 {
-  //   font-size: 1.2rem;
-  // }
 
   .meta-tags {
     flex-direction: column;
