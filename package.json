@@ -9,10 +9,10 @@
         "astro": "astro"
     },
     "dependencies": {
-        "@astrojs/markdown-remark": "^6.3.2",
-        "@astrojs/preact": "^4.1.0",
+        "@astrojs/markdown-remark": "^6.3.7",
+        "@astrojs/preact": "^4.1.1",
         "@astrojs/rss": "^4.0.12",
-        "astro": "^5.4.2",
+        "astro": "^5.14.1",
         "astro-robots": "^2.3.1",
         "marked": "16.1.2",
         "preact": "^10.27.0",
@@ -22,7 +22,7 @@
         "swetrix": "^3.5.4"
     },
     "devDependencies": {
-        "@astrojs/sitemap": "^3.5.0",
+        "@astrojs/sitemap": "^3.6.0",
         "astro-compress": "^2.3.6",
         "prettier-plugin-astro": "^0.14.1",
         "sass": "^1.85.1"
