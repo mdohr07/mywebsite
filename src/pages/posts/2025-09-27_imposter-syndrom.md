@@ -84,9 +84,7 @@ Keine Ahnung, vielleicht? Aber persönlich finde ich, die zuvor genannten positi
 
 ## Fazit 
 
-Weißt du davon, wie Menschen auf dem Autismus-Spektrum oft ein "spezielles Interesse" haben? Ich habe mich mal gefragt, ob diese Menschen auch gezielt so ein spezielles Interesse bestimmen können. Also wenn jemand dazu was weiß: bitte unbedingt bescheid sagen, interessiert mich sehr! 
-
-Ich mache nämlich manchmal diese komische Erfahrung (und ich sage nicht, dass ich autistisch bin, ist nur eine Beobachtung): wenn ich mich dazu entschließe etwas zu lernen oder ein Hobby aufzunehmen, dann mache ich es zu einem speziellen Interesse. 
+Ich mache  manchmal diese komische Erfahrung: wenn ich mich dazu entschließe etwas zu lernen oder ein Hobby aufzunehmen, dann mache ich es zu einem "speziellen Interesse". 
 
 Als ich damals beschlossen habe, Japanisch zu lernen, habe ich das richtig intensiv gemacht und hundert Prozent gegeben. Es war schwer, nicht an Japanisch zu denken. 
 
