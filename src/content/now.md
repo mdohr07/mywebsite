@@ -1,6 +1,6 @@
 # Now
 
-+— Last updated: Sep 14th '25 —+
++— Last updated: Oct 18th '25 —+
 
 ※ Currently doing an internship in Frontend Development as a part of my retraing in IT
 
@@ -15,6 +15,8 @@
 ## Actively Playing
 
 - [The Elder Scrolls Online](https://www.elderscrollsonline.com/de/home)
+- [Monolith](https://store.steampowered.com/app/1542390/Monolith/)
+- [Ultros](https://www.ultrosgame.com/)
 - Klonoa
   
 ### On pause

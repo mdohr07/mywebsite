@@ -1,3 +1,5 @@
+**18.10.2025 12:32** I got a new and shiny chain for my bicycle :)
+
 **13.09.2025 13:05** So sleepy. But I'll try to write a blog entry
 
 **06.09.2025 15:38** Made it through the first week of the internship :3
