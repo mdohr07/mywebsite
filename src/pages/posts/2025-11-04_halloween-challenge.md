@@ -31,7 +31,7 @@ music:
 
 Mein letzter Blogeintrag ist leider zu lange her - generell hatte ich kaum zu etwas Zeit,  abends bin ich zu müde und will nur noch faul sein. Ehrlich, die Wochenenden fühlen sich viel zu kurz an.
 
-Aber man höre und staune: Über das letzte Wochenende habe ich ein kleines Projekt gebaut!Genauer gesagt eine Landing Page zum aktuellen Anlass Halloween. Seit ich mich im Mai dieses Jahres bei dev.to registriert habe, geistere ich dort öfter mal herum - passende Wortwahl. Dort gab es mal wieder eine Challenge und dieses Mal habe ich auch etwas davon mitbekommen. Eine Frontend-Challenge und da wollte ich gleich mitmachen. 
+Aber man höre und staune: Über das letzte Wochenende habe ich ein kleines Projekt gebaut! Genauer gesagt eine Landing Page zum aktuellen Anlass Halloween. Seit ich mich im Mai dieses Jahres bei dev.to registriert habe, geistere ich dort öfter mal herum - passende Wortwahl. Dort gab es mal wieder eine Challenge und dieses Mal habe ich auch etwas davon mitbekommen. Eine Frontend-Challenge und da wollte ich gleich mitmachen. 
 
 ## Mein Projekt
 
@@ -45,8 +45,8 @@ Auch was das Design angeht wollte ich ein wenig vom vermuteten Standard abweiche
 
 Bitte oben rechts in der Ecke den Website-Ton einschalten :)
 
-**GitHub Pages**
-[Live Demo](https://mdohr07.github.io/Spooktacular/)
+**GitHub Pages:** 
+[Live Demo](https://mdohr07.github.io/Spooktacular/) | 
 [Repo](https://github.com/mdohr07/Spooktacular/blob/main/preview.png)
 
 ![Screenshot](https://github.com/mdohr07/Spooktacular/raw/main/preview.png)
@@ -64,4 +64,4 @@ Ich mag meine Idee und finde, ich habe die Stimmung schon ganz gut hinbekommen. 
 
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3NvNnRyM3JybmF2eHpsMmg4b254amU0YWJiaXB4dTd4YjY4YXF0ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GTeBnkeQY4Nzy/giphy.gif">
 
-Übrigens gibt es eine DEV++-Mitgliedschaft zu gewinnen und ein Badge (Abzeichen) für die Teilnahme am Wettbewerb. Letzteres reicht mir, hier den ersten Platz zu gewinnen ist nicht das Ziel und mit - im Vergleich - so wenig betiebenem Aufwand auch nicht zu erwarten.Aber ich versuche, ein aktives Mitglied der Community zu sein und fleißig Badges zu sammeln. Tatsächlich wurde mir gerade heute ein Trusted Member Status verliehen. Tatsächlich wurde mir gerade heute der Trusted Member-Status verliehen. Ich muss gleich selbst erst mal nachsehen, was das genau bedeutet und welche Vorteile das bringt - aber klingt doch gut, oder?
+Übrigens gibt es eine DEV++-Mitgliedschaft zu gewinnen und ein Badge (Abzeichen) für die Teilnahme am Wettbewerb. Letzteres reicht mir, hier den ersten Platz zu gewinnen ist nicht das Ziel und mit - im Vergleich - so wenig betiebenem Aufwand auch nicht zu erwarten. Aber ich versuche, ein aktives Mitglied der Community zu sein und fleißig Badges zu sammeln. Tatsächlich wurde mir gerade heute der Trusted Member-Status verliehen. Ich muss gleich selbst erst mal nachsehen, was das genau bedeutet und welche Vorteile das bringt - aber klingt doch gut, oder?
