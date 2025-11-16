@@ -10,7 +10,7 @@ author: "mdohr"
 # Medien
 image:
   url: "https://github.com/mdohr07/Spooktacular/raw/main/preview.png"
-  alt: "Screenshot of Spooktacular LandingPae"
+  alt: "Screenshot of Spooktacular LandingPage"
 
 # Kategorien & Stimmung
 tags:
