@@ -590,6 +590,7 @@ h1.title {
 .post-header {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   align-items: baseline;
   margin-bottom: 0.5rem;
 }
