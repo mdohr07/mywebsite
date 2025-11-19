@@ -102,14 +102,14 @@ html {
     "image"
     "footer";
 
-  background-size: cover;
   background-color: var(--black);
   color: var(--gray-efef);
   height: 100%;
   font-size: 1.2rem;
   font-weight: normal;
 
-  background-image: url("/img/assets/graphics/texture-pattern.jpg");
+  background-image: url("/img/assets/graphics/02.jpg");
+  background-repeat: repeat;
   cursor: url("/img/assets/cursors/mooncursor.gif"), auto;
   font-family: "EB Garamond", serif;
   font-weight: 400;
