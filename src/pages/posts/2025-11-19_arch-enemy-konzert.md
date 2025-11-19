@@ -56,7 +56,7 @@ Wir waren übrigens irgendwo am Rand, nicht ganz vorne, auch nicht ganz hinten. 
 ## Arch Enemy
 Gegen Ende des Auftritts verspürten wir den Drang los zu laufen und auch noch schnell *Eluveite* T-Shirts kaufen. So haben sie uns begeistert. Und noch ein Bier. Dann kamen Arch Enemy auf die Bühne.
 
-<video width="90%" height="auto" controls>
+<video width="100%" height="auto" controls>
   <source src="/img/assets/blog/2025-11/2025-11-14-19.mp4" type="video/mp4">
   Dein Browser unterstützt das Video-Tag nicht.
 </video>
@@ -67,14 +67,14 @@ Die Songs waren alle super! Natürlich sind ältere Stücke wie *Nemesis* immer 
 <img src="/img/assets/blog/2025-11/2025-11-14 21.38.33-min.jpg" alt="arch enemy live photo" />
 
 
-<video width="90%" height="auto" controls>
+<video width="100%" height="auto" controls>
   <source src="/img/assets/blog/2025-11/2025-11-14-24.mp4" type="video/mp4">
   Dein Browser unterstützt das Video-Tag nicht.
 </video>
 
 Ausnahmseise mit Gesang:
 
-<video width="90%" height="auto" controls>
+<video width="100%" height="auto" controls>
   <source src="/img/assets/blog/2025-11/2025-11-14-48.mp4" type="video/mp4">
   Dein Browser unterstützt das Video-Tag nicht.
 </video>
