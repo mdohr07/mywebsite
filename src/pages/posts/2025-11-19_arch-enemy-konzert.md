@@ -9,8 +9,8 @@ author: "mdohr"
 
 # Medien
 image:
-  url: ""
-  alt: "..."
+  url: "/img/assets/blog/2025-11/2025-11-14 22.16.45-min.jpg"
+  alt: "Arch Enemy live, red background and Alissa with her blue hair in the foreground (but small :/)"
 
 # Kategorien & Stimmung
 tags:
@@ -72,6 +72,7 @@ Die Songs waren alle super! Natürlich sind ältere Stücke wie *Nemesis* immer 
 </video>
 
 Ausnahmseise mit Gesang:
+
 <video width="90%" height="auto" controls>
   <source src="/img/assets/blog/2025-11/2025-11-14-48.mp4" type="video/mp4">
   Dein Browser unterstützt das Video-Tag nicht.
