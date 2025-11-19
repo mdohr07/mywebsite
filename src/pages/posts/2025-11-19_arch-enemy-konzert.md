@@ -66,6 +66,7 @@ Die Songs waren alle super! Natürlich sind ältere Stücke wie *Nemesis* immer 
 
 <img src="/img/assets/blog/2025-11/2025-11-14 21.38.33-min.jpg" alt="arch enemy live photo" />
 
+
 <video width="90%" height="auto" controls>
   <source src="/img/assets/blog/2025-11/2025-11-14-24.mp4" type="video/mp4">
   Dein Browser unterstützt das Video-Tag nicht.
@@ -77,6 +78,7 @@ Ausnahmseise mit Gesang:
   <source src="/img/assets/blog/2025-11/2025-11-14-48.mp4" type="video/mp4">
   Dein Browser unterstützt das Video-Tag nicht.
 </video>
+
 
 <img src="/img/assets/blog/2025-11/2025-11-14 22.16.45-min.jpg" alt="arch enemy live photo" />
 
