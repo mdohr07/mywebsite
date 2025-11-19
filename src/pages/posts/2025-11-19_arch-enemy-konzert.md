@@ -64,7 +64,7 @@ Gegen Ende des Auftritts verspürten wir den Drang los zu laufen und auch noch s
 Alissa tobte in ihrem hautengen Anzug rum und zum allgemeinen Herumhübpfen gesellte sich Crowd Diving.
 Die Songs waren alle super! Natürlich sind ältere Stücke wie *Nemesis* immer Highlights, auch für mich. Aber auch *War Eternal* geht immer! Das einzig Dumme war, dass wir ein bisschen auf die Zeit achten mussten. Es wurde fast 23 Uhr und wir wollten *wirklich* den Zug um 0.20 Uhr haben. Der nächste wäre danach erst nach 4 Uhr gefahren und so lange wollten wir uns nicht dort aufhalten. Darum haben wir uns schonmal auf uneren Abgang vorbereitet und mussten leider während des Auftritts schonmal zur Toilette. Zu meinem großen Bedauern und Ärgernis haben wir dabei *No Gods, No Masters* verpasst - das ist mein Lieblingssong... Damit endete das Konzert. 
 
-<img src="/img/assets/blog/2025-11/22025-11-14 21.38.33-min.jpg" alt="arch enemy live photo" />
+<img src="/img/assets/blog/2025-11/2025-11-14 21.38.33-min.jpg" alt="arch enemy live photo" />
 
 <video width="90%" height="auto" controls>
   <source src="/img/assets/blog/2025-11/2025-11-14-24.mp4" type="video/mp4">
