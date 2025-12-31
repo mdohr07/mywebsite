@@ -1,3 +1,5 @@
+**19.11.2025 15:06** New hair, new blog entry and new page background :3
+
 **18.10.2025 12:32** I got a new and shiny chain for my bicycle :)
 
 **13.09.2025 13:05** So sleepy. But I'll try to write a blog entry
