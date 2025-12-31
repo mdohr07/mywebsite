@@ -16,7 +16,7 @@ image:
 tags:
   - reflexion
   - persönlich
-  - Entwicklung
+  - entwicklung
 mood: "Entspannt"
 
 # Sonstiges
