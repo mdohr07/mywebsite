@@ -24,7 +24,7 @@ music:
   artist: "Moebius FM"
   url: "https://moebiusfm.bandcamp.com/track/hearts-in-standby"
 
-  draft: false
+draft: false
 ---
 Leider hatte ich die Woche über keine Zeit zum Schreiben, aber jetzt ist Wochenende und ich bin wieder da! Da sonst nicht viel zu berichten ist, schreibe ich heute wieder über mein Praktikum. Woche zwei ist rum und hier folgt meine Zusammenfassung.
 

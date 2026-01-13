@@ -1,6 +1,4 @@
 ---
-layout: ../../components/Post.astro
-
 # Basis-Metadaten
 title: "Arch Enemy: Mein erster Konzert-Besuch seit einer Ewigkeit"
 description: "Von alten Konzert-Erinnerungen zu neuer Euphorie: Mein Erlebnis beim Arch Enemy-Konzert, die Anreise, Vorbands, die Aufregung vor der Bühne und die Freude über unvergessliche Momente."

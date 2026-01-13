@@ -1,6 +1,4 @@
 ---
-layout: ../../components/Post.astro
-
 # Basis-Metadaten
 title: "Skizzen und Sternenkarten"
 description: "Ein persönlicher Blick auf kreative Erschöpfung, Skizzen als Neuanfang und ein geheimnisvolles Langzeitprojekt, das gerade erst entsteht."
@@ -28,7 +26,7 @@ music:
   artist: "Futurescapes Sci Fi Ambience"
   url: "https://www.youtube.com/watch?v=ZT8gBXs83As"
 
-  draft: false
+draft: false
 ---
 
 Hallo, ist da irgendjemand? Ah ja, ich bin ja wieder hier. Es ist eine Weile her, seit ich hier geschrieben habe. Ich hatte den Kopf voll. Gar nicht mal, weil ich extra viel gemacht habe. Ich war nur besonders müde und seit einer Weile war die Batterie ziemlich  leer. Ich hatte einfach keine Kapazität mehr zu bloggen. Schade eigentlich, ich hätte bestimmt was zu erzählen gehabt und jetzt habe ich natürlich schon wieder vergessen, was so alles los war.

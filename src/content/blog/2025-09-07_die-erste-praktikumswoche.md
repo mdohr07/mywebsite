@@ -23,7 +23,7 @@ music:
   artist: "CHILL CITY POP"
   url: "https://www.youtube.com/watch?v=Rh7u_cbAiZc&list=RDRh7u_cbAiZc&index=1&t=1140s"
 
-  draft: false
+draft: false
 ---
 Heute wieder ein neuer Eintrag - die erste Woche meines Praktikums (in IT) ist geschafft! Ich kann gerade nicht so viel dazu sagen. Ich bin noch dabei, mich einzugewöhnen, es fühlt sich noch alles eher fremd an. Dazu kommt, dass ich abgesehen davon Stress hatte, oft später ins Bett gekommen bin, als mir lieb war und ich mich die gesamte Woche über sehr kaputt gefühlt habe.
 

@@ -22,7 +22,7 @@ music:
   title: "keine"
   url: ""
 
-  draft: false
+draft: false
 ---
 
 Heute geht es in meinem Beitrag wie angekündigt um Frontend und Backend - aus meiner Sicht. Seiten und Blogeinträge die Unterschiede zwischen den beiden aufzeigen und erklären gibt es zu genüge. 
