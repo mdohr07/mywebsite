@@ -1,6 +1,4 @@
 ---
-layout: ../../components/Post.astro
-
 # Basis-Metadaten
 title: "Die zweite Praktikumswoche"
 description: "In diesem Blogpost reflektiere ich meine zweite Praktikumswoche und meine ersten Erfahrungen mit neuen Technologien und Tools."

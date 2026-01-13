@@ -1,6 +1,4 @@
 ---
-layout: ../../components/Post.astro
-
 # Basis-Metadaten
 title: "Imposter-Syndrom im Praktikum: Warum ich mich oft doof fühle (und was dagegen helfen kann)"
 description: "Ein persönlicher Eintrag über das Gefühl, nichts zu können, und Strategien gegen Imposter-Syndrom beim Programmieren."

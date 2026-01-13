@@ -1,6 +1,4 @@
 ---
-layout: ../../components/Post.astro
-
 # Basis-Metadaten
 title: "Wieder hier, aber auf Deutsch"
 description: "Sprachwechsel im Blog: Warum ich mich für Deutsch entschieden habe, plus Updates zu Umschulung und neuem Website-Design."

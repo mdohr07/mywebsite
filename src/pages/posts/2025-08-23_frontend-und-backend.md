@@ -1,6 +1,4 @@
 ---
-layout: ../../components/Post.astro
-
 # Basis-Metadaten
 title: "Meine Sicht auf Frontend und Backend"
 description: "Warum Frontend mehr ist als nur 'hübsch machen' - meine persönlichen Erfahrungen mit der ewigen Debatte zwischen Frontend und Backend."

@@ -1,6 +1,4 @@
 ---
-layout: ../../components/Post.astro
-
 # Basis-Metadaten
 title: "Was ich beim Aufbau meines Blogs gelernt habe"
 description: "Ein Rückblick auf meine Erfahrungen beim Aufbau meines Blogs und meine Lernfortschritte mit Astro, Angular, React und Git"

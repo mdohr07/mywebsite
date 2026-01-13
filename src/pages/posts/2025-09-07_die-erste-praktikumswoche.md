@@ -1,6 +1,4 @@
 ---
-layout: ../../components/Post.astro
-
 # Basis-Metadaten
 title: "Die erste Praktikumswoche und Fahrrad-Schnack"
 description: "Erste Woche im IT-Praktikum geschafft - mit Büro-Hund, gutem Kaffee und einer Fahrradtour zu den Booten trotz Urtikaria-Ausschlag."

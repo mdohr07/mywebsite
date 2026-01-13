@@ -1,6 +1,4 @@
 ---
-layout: ../../components/Post.astro
-
 # Basis-Metadaten
 title: "Was bleibt, wenn sich alles ändert"
 description: "Eine Betrachtung darüber, wie sich Interessen wandeln können und warum die Essenz von Kreativität dabei doch dieselbe bleibt."
