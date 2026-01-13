@@ -3,19 +3,31 @@ import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
 
 const posts = await getCollection("blog", ({ data }) => !data.draft);
+
+const sortedPosts = posts.sort((a, b) => {
+  return new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime();
+});
+
+const formatDate = (pubDate: Date) => {
+  return new Date(pubDate).toLocaleDateString("de-DE", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+};
 ---
 
 <Layout>
   <div class="blog-container">
     <h1>Blog</h1>
 
-    <ul>
+    <ul class="post-list">
       {
         posts.map((post) => (
           <li class="post-item">
-            <div class="post-header">
-              {/* <span class="post-date">{post.data.pubDate}</span> */}
-              <a href={`/posts/${post.slug}`}>{post.data.title}</a>
+            <div class="post-header"> 
+              <p class="post-date">{formatDate(post.data.pubDate)}</p>
+              <a href={`/posts/${post.slug}`}>{post.data.title}</a>       
             </div>
             <p class="post-description">{post.data.description}</p>
           </li>

@@ -4,20 +4,18 @@ import { getCollection } from "astro:content";
 const posts = (await getCollection("blog", ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
   .slice(0, 3);
-  
-// const posts = allPosts
-//   .sort((a: any, b: any) => {
-//     return new Date(b.frontmatter.pubDate).getTime() - new Date(a.frontmatter.pubDate).getTime();
-//   })
-//   .slice(0, 5);
 
-// const formatDate = (pubDate: any) => {
-//   return new Date(pubDate).toLocaleDateString("de-DE", {
-//     day: "numeric", // 1
-//     month: "long", // July
-//     year: "numeric", // 2022
-//   });
-// };
+const sortedPosts = posts.sort((a, b) => {
+  return new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime();
+});
+
+const formatDate = (pubDate: Date) => {
+  return new Date(pubDate).toLocaleDateString("de-DE", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+};
 ---
 
 <section class="latest-posts">
@@ -26,7 +24,8 @@ const posts = (await getCollection("blog", ({ data }) => !data.draft))
     {
       posts && posts.length > 0 ? (
         posts.map((post) => (
-          <li>
+          <li class="latest-post-item">
+            <p class="post-date">{formatDate(post.data.pubDate)}</p>
             <a href={`/posts/${post.slug}`}>{post.data.title ?? "Ohne Titel"}</a>
           </li>
         ))
