@@ -1,36 +1,38 @@
 ---
-const modules = import.meta.glob("../pages/posts/*.md", { eager: true });
-const allPosts = Object.values(modules);
+import { getCollection } from "astro:content";
 
-const posts = allPosts
-  .sort((a: any, b: any) => {
-    return new Date(b.frontmatter.pubDate).getTime() - new Date(a.frontmatter.pubDate).getTime();
-  })
-  .slice(0, 5);
+const posts = (await getCollection("blog", ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+  .slice(0, 3);
+  
+// const posts = allPosts
+//   .sort((a: any, b: any) => {
+//     return new Date(b.frontmatter.pubDate).getTime() - new Date(a.frontmatter.pubDate).getTime();
+//   })
+//   .slice(0, 5);
 
-const formatDate = (pubDate: any) => {
-  return new Date(pubDate).toLocaleDateString("de-DE", {
-    day: "numeric", // 1
-    month: "long", // July
-    year: "numeric", // 2022
-  });
-};
+// const formatDate = (pubDate: any) => {
+//   return new Date(pubDate).toLocaleDateString("de-DE", {
+//     day: "numeric", // 1
+//     month: "long", // July
+//     year: "numeric", // 2022
+//   });
+// };
 ---
 
 <section class="latest-posts">
   <h2>Latest Blog Posts</h2>
   <ul class="latest-post-list">
     {
-      posts.map((post: any) => (
-        <li class="latest-post-item">
-          <div class="post-header">
-            <a href={post.url} class="post-title">
-              {post.frontmatter.title}
-            </a>
-            <span class="post-date">{formatDate(post.frontmatter.pubDate)}</span>
-          </div>
-        </li>
-      ))
+      posts && posts.length > 0 ? (
+        posts.map((post) => (
+          <li>
+            <a href={`/posts/${post.slug}`}>{post.data.title ?? "Ohne Titel"}</a>
+          </li>
+        ))
+      ) : (
+        <p>No entries found 💀</p>
+      )
     }
   </ul>
 </section>

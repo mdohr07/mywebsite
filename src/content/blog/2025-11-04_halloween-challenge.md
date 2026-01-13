@@ -27,6 +27,8 @@ music:
   title: "SENSORIUM EP :: Atmospheric DnB & Jungle"
   artist: ""
   url: "https://www.youtube.com/watch?v=Hb4bARgep3E"
+
+  draft: false
 ---
 
 Mein letzter Blogeintrag ist leider zu lange her - generell hatte ich kaum zu etwas Zeit,  abends bin ich zu müde und will nur noch faul sein. Ehrlich, die Wochenenden fühlen sich viel zu kurz an.

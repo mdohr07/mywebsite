@@ -25,6 +25,8 @@ music:
   title: "No Gods, No Masters (Live in Budapest, Hungary, 14.10.2025)"
   artist: "Arch Enemy"
   url: "https://youtu.be/si91s-q9K5c?si=nb-Ne0j4G01ZEVUd"
+
+  draft: false
 ---
 
 

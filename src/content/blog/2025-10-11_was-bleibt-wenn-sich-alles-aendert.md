@@ -22,6 +22,8 @@ music:
   title: "Monolith"
   artist: "Twin Tribes"
   url: "https://youtu.be/-XEavwcHU78?si=M7nkJGheItw28Id3"
+
+  draft: false
 ---
 In meinem heutigen Beitrag geht es um zwei Welten, zwischen denen ich mich bewege - die Kunst und den Code. Ich möchte weniger über äußere Umstände sprechen, sondern über das, was sich in mir verändert hat.
 

@@ -22,6 +22,8 @@ music:
   title: "あなたの夢 (Dreams of You)"
   artist: "Chill City Pop"
   url: "https://www.youtube.com/watch?v=3H1SLo532lE&list=RD3H1SLo532lE&index=1&t=5462s"
+
+  draft: false
 ---
 Hier bin ich wieder mit einem neuen Blog Eintrag. Ich habe ehrlich gesagt keine richtige Ahnung davon, was ich schreiben will, dieser Beitrag ist komplett freestyle.
 

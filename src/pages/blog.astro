@@ -1,5 +1,32 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+const posts = await getCollection("blog", ({ data }) => !data.draft);
+---
+
+<Layout>
+  <div class="blog-container">
+    <h1>Blog</h1>
+
+    <ul>
+      {
+        posts.map((post) => (
+          <li class="post-item">
+            <div class="post-header">
+              {/* <span class="post-date">{post.data.pubDate}</span> */}
+              <a href={`/posts/${post.slug}`}>{post.data.title}</a>
+            </div>
+            <p class="post-description">{post.data.description}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Layout>
+
+<!-- ---
+import Layout from "../layouts/Layout.astro";
 
 const modules = import.meta.glob("../pages/posts/*.md", { eager: true });
 const allPosts = Object.values(modules);
@@ -45,4 +72,4 @@ const formatDate = (pubDate: any) => {
       }
     </ul>
   </div>
-</Layout>
+</Layout> -->

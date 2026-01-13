@@ -1,16 +1,8 @@
 ---
-import Layout from "../layouts/Layout.astro";
+
 const { content } = Astro.props;
 
-const {
-  title,
-  pubDate,
-  author,
-  mood,
-  music,
-  tags,
-  image,
-} = content;
+const { title, pubDate, author, mood, music, tags, image } = content;
 
 const formatDate = (pubDate: Date) => {
   return pubDate.toLocaleDateString("de-DE", {
@@ -22,30 +14,30 @@ const formatDate = (pubDate: Date) => {
 };
 ---
 
-<Layout>
+<div>
   <h1>{title}</h1>
   <article lang="de">
     <p class="author">
-      <span class="secondary-text">Verfasst von </span>{author || "Unbekannt"}
+      <span class="secondary-text">Verfasst von</span>{author || "Unbekannt"}
       <span class="secondary-text">am</span>
       {formatDate(pubDate)}
     </p>
 
     <slot />
 
-    <!-- {image && <img src={image.url} alt={image.alt ?? ""} />} -->
+    <!-- <img src={image.url} alt=""> -->
 
     <section class="meta">
       <section class="general">
         <p>Stimmung: {mood}</p>
         <p>
           Musik: {
-            music.url ? (
-              <a href={music.url} ? target="_blank" rel="noopener noreferrer">
-                {music.artist} - {music.title}
+            music?.url ? (
+              <a href={music.url} target="_blank" rel="noopener noreferrer">
+                {music?.artist || "Unbekannt"} - {music?.title || "Unbekannt"}
               </a>
             ) : (
-              music.title
+              music?.title || "Keine Musik"
             )
           }
         </p>
@@ -64,4 +56,4 @@ const formatDate = (pubDate: Date) => {
       </section>
     </section>
   </article>
-</Layout>
+</div>
