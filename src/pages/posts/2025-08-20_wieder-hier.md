@@ -24,6 +24,8 @@ mood: "entspannt"
 music:
   title: "keine"
   url: ""
+
+  draft: false
 ---
 
 So, da bin ich wieder! Und gar nicht auf Englisch - wie selten! Mein letzter Blog Eintrag liegt schon eine Weile zurück. 

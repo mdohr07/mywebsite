@@ -4,8 +4,8 @@ const { content } = Astro.props;
 
 const { title, pubDate, author, mood, music, tags, image } = content;
 
-const formatDate = (pubDate: any) => {
-  return new Date(pubDate).toLocaleDateString("de-DE", {
+const formatDate = (pubDate: Date) => {
+  return pubDate.toLocaleDateString("de-DE", {
     weekday: "long", // Friday
     year: "numeric", // 2022
     month: "long", // July
