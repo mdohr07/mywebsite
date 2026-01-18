@@ -1,28 +1,26 @@
 # Now
 
-+— Last updated: Oct 18th '25 —+
++— Last updated: Oct 18th '26 —+
 
-※ Currently doing an internship in Frontend Development as a part of my retraing in IT
+※ Currently doing a Frontend Dev internship as a part of my retraing in IT
 
-## Projects / currently learning
+## Working on...
 
-- Linocut
-- Brush up my **Japanese**
-- Becoming a better learner **and thinker**
-- This website
-- React x TypeScript
+- Fat journal setup
+- Brushing up my **Japanese** (kinda)
+- This website, always
+- Getting better at React x TypeScript
 
 ## Actively Playing
 
-- [The Elder Scrolls Online](https://www.elderscrollsonline.com/de/home)
-- [Monolith](https://store.steampowered.com/app/1542390/Monolith/)
-- [Ultros](https://www.ultrosgame.com/)
-- Klonoa
-  
-### On pause
+- [Warhammer 40,000: Rogue Trader](https://roguetrader.owlcat.games/)
 
-- [Chorus](https://chorusthegame.com/)
-- [Metroid II](https://www.nintendo.com/de-de/Spiele/Game-Boy/Metroid-II-Return-of-Samus-275737.html)
-- [Animal Crossing: New Horizons](https://www.nintendo.com/us/store/products/animal-crossing-new-horizons-switch/)
-- [Elite Dangerous](https://www.elitedangerous.com/)
-- [Pokémon Red](https://www.pokemon.com/us/pokemon-video-games/pokemon-red-version-and-pokemon-blue-version)
+## Listening to
+
+- Random electronic/ambient music
+- 摩天楼オペラ
+- Lynch
+- Arch Enemy
+- Sirenia
+- Eluveitie
+  
