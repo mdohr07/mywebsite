@@ -36,13 +36,13 @@ Ich habe inzwischen mit meinem neuen Projekt angefangen. Und bisher geht mein Pl
 
 ### Enthüllung
 
-Das Projekt ist ein SciFi Solo-Rollenspiel, das ich für mich selbst entwickle und spiele. Damit meine ich ein analoges Rollenspiel, oder auch Solo Journaling RPG. Dazu brauche ich Stift und Papier, der Computer ist aber auch dabei, die eigentliche Schreibarbeit passiert dort. Aber theoretisch geht es ohne. Zum Würfeln benutze ich eine App.
+Das Projekt ist ein SciFi Solo-Rollenspiel, das ich für mich selbst entwickle und spiele. Damit meine ich ein analoges Rollenspiel, oder auch Solo Journaling RPG. Dazu brauche ich Stift und Papier, der Computer ist aber auch dabei, die eigentliche Schreibarbeit passiert dort. Zum Würfeln benutze ich eine App.
 
 <img src="https://cdn.cara.app/production/posts/9f188050-6765-440c-992d-8dae6b541c71/mdohr07-MuNUnXgCbw3rtqWsYiP92-Elys-Port2.png" />
 
 ## Wie ich hier gelandet bin
 
-Ich habe schon lange Interesse an dieser Art von Spiel, aber an der Umsetzung hat es immer gehapert. Ich habe für eine Weile den Gamesworkshop (heißt jetzt nur noch Warhammer) besucht, wo gebastelt und gespielt werden kann. Nur zum Spielen bin ich kaum gekommen - Minis zusammenzubeauen und zu bemalen dauert schon seine Zeit. Ganz besonders dann, wenn man ambitioniert oder perfektionistisch ist. Wenn die ganze Armee hübsch sein soll, bevor man damit spielt, braucht es Geduld. 
+Ich habe schon lange Interesse an dieser Art von Spiel, aber an der Umsetzung hat es immer gehapert. Ich habe für eine Weile den Gamesworkshop (heißt jetzt nur noch Warhammer) besucht, wo gebastelt und gespielt werden kann. Nur zum Spielen bin ich kaum gekommen - Minis zusammenzubeauen und zu bemalen dauert schon seine Zeit. Wenn die ganze Armee hübsch sein soll, bevor man damit spielt, braucht es Geduld. 
 Davor habe ich auch für kurze Zeit das Rogue Trader Pen & Paper RPG gespielt. Leider ging die Gruppe schon nach kurzer Zeit auseinander und hier sind passend dazu zwei häufige Probleme mit Rollenspielen dieser Art: 
 
 1. man braucht Leute die sich einigermaßen regelmäßig zusammenfinden können um in oft langen Sitzungen zu spielen
@@ -83,3 +83,4 @@ Und wenn Koonis Geschichte enden sollte, kann ich einfach mit einem anderen Char
 ## Epilog
 
 Einen richtigen Plan habe ich nicht. Ich weiß noch nicht, wieviel davon irgendwann nach außen wandert. Ich habe schon ein bisschen was auf Cara gepostet, soviel kann ich sagen. Wenn ich Lust habe, teile ich ein paar Einblicke. Im Moment poste ich auf Cara, weil ich dort auch keinen Druck spüre und um zu sehen, was am Ende dort zusammenkommt - was für ein Bild sich aus meinen Posts ergibt. Ob und wieviel Text oder Geschichte ich teile, weiß ich hingegen noch nicht. Aber ich weiß schonmal, dass ich dabei bleiben will und bin gespannt zu sehen, wie weit und wie tief meine Welt geht.
+
