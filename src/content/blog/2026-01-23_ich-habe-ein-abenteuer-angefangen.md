@@ -2,7 +2,7 @@
 # Basis-Metadaten
 title: "Ich habe ein Abenteuer angefangen"
 description: "In diesem Eintrag enthülle ich mein neues Projekt und schreibe darüber, wie es mir zu neugefundener Freiheit in meiner Kreativität hilft."
-pubDate: 2025-01-22
+pubDate: 2026-01-22
 author: "mdohr"
 
 # Medien
@@ -85,6 +85,7 @@ Und wenn Koonis Geschichte enden sollte, kann ich einfach mit einem anderen Char
 ## Epilog
 
 Einen richtigen Plan habe ich nicht. Ich weiß noch nicht, wieviel davon irgendwann nach außen wandert. Ich habe schon ein bisschen was auf Cara gepostet, soviel kann ich sagen. Wenn ich Lust habe, teile ich ein paar Einblicke. Im Moment poste ich auf Cara, weil ich dort auch keinen Druck spüre und um zu sehen, was am Ende dort zusammenkommt - was für ein Bild sich aus meinen Posts ergibt. Ob und wieviel Text oder Geschichte ich teile, weiß ich hingegen noch nicht. Aber ich weiß schonmal, dass ich dabei bleiben will und bin gespannt zu sehen, wie weit und wie tief meine Welt geht.
+
 
 
 
