@@ -19,7 +19,7 @@ tags:
   - journal
   - soloRPG
 
-mood: ""
+mood: "inspired"
 
 # Sonstiges
 music:
@@ -27,7 +27,7 @@ music:
   artist: "Moebius FM"
   url: "https://youtu.be/50vsqwy9kho?si=Xzcng7IAkezr9lXE"
 
-draft: true
+draft: false
 ---
 
 ## Takeoff
@@ -64,6 +64,8 @@ Aber je tiefer ich in die Geschichte einsteige, je mehr Form mein Universum anni
 
 Wenn ich spiele, suche ich mir auf YouTube einen passenden, musikalischen Hintergrund. Meist Ambient Music mit SciFi-Theme. So ist es am atmosphärischsten. Wichtige Dinge, die ich während des Spiels beachten muss, notiere ich in meinem Journal. Dazu gehören zum Beispiel bemerkenswerte Begegnungen oder Kontakte, Gegenstände und Finanzen. Dieses Journal führe ich nur für das Projekt, gesondert von meinem regulären Journal. Auch Zeichnungen und Einfälle kommen da rein. Dann muss ich meist noch einmal nachlesen, was genau zuletzt geschah und setze dort die Reise fort. Den Spiel-Anteil kann ich am besten zu Hause genießen, aber auch im Büro habe ich schonmal ein paar Minuten investiert, wenn ich zum Beispiel darauf warte, dass ein Meeting startet.
 
+<img src="https://cdn.cara.app/production/posts/5c05e7df-b5b9-4a8c-be40-65dfbdda3b3f/1769170280580-abtywcp42mn.jpg" alt="Foto von Journal mit braunem, zerkratzen Ledereinband und einem Anhänger mit zwei niedlichen Cartoon-Häschen"/>
+
 Zwei Momente sind mir bisher mehr als einmal passiert: der Moment, in dem ich kurz stecken bleibe und nicht weiß, wie ich die Geschichte sinnvoll vorantreiben soll. Zum Beispiel: "Wohin geht Kooni jetzt?" oder "Was sagt der Nebencharakter als nächstes?". Der zweite Moment ist der, in dem ich spiele und dann auf etwas stoße von dem ich denke, ich sollte dafür mein System erweitern. Das passierte gerade erst diese Woche als Kooni einen Deal abschließen wollte, ich aber noch keine Regeln für Währung und Handel eingeführt hatte. Dann pausiere ich die Geschichte und widme mich stattdessen dem Regelwerk. Also - jetzt gibt es eine Regelung für den Wert von Dingen sowie Ein- und Ausgaben. Beim Startkapital habe ich es mir einfach gemacht: Würfeln und mit zehn multiplizieren, fertig. 
 Ich muss sagen, dass mir das Ausdenken und verknüpfen von Spielregeln viel Spaß bringt.
 
@@ -83,6 +85,7 @@ Und wenn Koonis Geschichte enden sollte, kann ich einfach mit einem anderen Char
 ## Epilog
 
 Einen richtigen Plan habe ich nicht. Ich weiß noch nicht, wieviel davon irgendwann nach außen wandert. Ich habe schon ein bisschen was auf Cara gepostet, soviel kann ich sagen. Wenn ich Lust habe, teile ich ein paar Einblicke. Im Moment poste ich auf Cara, weil ich dort auch keinen Druck spüre und um zu sehen, was am Ende dort zusammenkommt - was für ein Bild sich aus meinen Posts ergibt. Ob und wieviel Text oder Geschichte ich teile, weiß ich hingegen noch nicht. Aber ich weiß schonmal, dass ich dabei bleiben will und bin gespannt zu sehen, wie weit und wie tief meine Welt geht.
+
 
 
 
