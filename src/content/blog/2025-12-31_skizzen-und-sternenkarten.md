@@ -137,4 +137,4 @@ Ich bin total aufgeregt! Ich kann es kaum abwarten, meine Ideen umzusetzen und h
 
 Ich muss nicht bis zum Wochenende warten, um daran zu arbeiten sondern kann zwischendrin einfach ein paar Minuten investieren. Und ich muss auch keinen ganzen Tag investieren, wenn es gerade nicht so passt. 
 
-Ich denke ich kann es schaffen, mir auf diese Weise nicht wieder selbst Druck zu machen. Darum fühlt es sich nach Freiheit an. Nach jetzigem Stand und meinem Gefühl wird das Projekt auch Teil meiner Website. Kann gut sein, dass die Seite entsprechend ein wenig umgestaltet wird und neue Inhalte bekommt. Kann auch gut sein, dass der Blog passend dazu erweitert wird. <img src="../emojis/rainbow.png">
+Ich denke ich kann es schaffen, mir auf diese Weise nicht wieder selbst Druck zu machen. Darum fühlt es sich nach Freiheit an. Nach jetzigem Stand und meinem Gefühl wird das Projekt auch Teil meiner Website. Kann gut sein, dass die Seite entsprechend ein wenig umgestaltet wird und neue Inhalte bekommt. Kann auch gut sein, dass der Blog passend dazu erweitert wird. <img src="/emojis/rainbow.png">
