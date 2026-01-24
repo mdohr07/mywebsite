@@ -16,15 +16,15 @@ export async function getStaticPaths() {
 
   // Alle eindeutigen Tags sammeln
   const uniqueTags = [
-    ...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat()),
+    ...new Set(allPosts.map((post: any) => post.data.tags).flat()),
   ];
 
   // Für jeden Tag eine Route erstellen
   return uniqueTags.map((tag) => {
     const filteredPosts = allPosts
-    .filter((post: any) => post.frontmatter.tags.includes(tag))
+    .filter((post: any) => post.data.tags.includes(tag))
     .sort((a:any, b: any) => {
-       return new Date(b.frontmatter.pubDate).getTime() - new Date(a.frontmatter.pubDate).getTime();
+       return new Date(b.frontmatter.pubDate).getTime() - new Date(a.data.pubDate).getTime();
     });
 
     return {
@@ -44,10 +44,10 @@ const { posts } = Astro.props;
   {posts.map((post: any) => (
     <li class="post-item">
       <div class="post-header">
-        <a href={post.url} class="post-title">{post.frontmatter.title}</a>
-        <span class="post-date">{formatDate(post.frontmatter.pubDate)}</span>
+        <a href={post.url} class="post-title">{post.data.title}</a>
+        <span class="post-date">{formatDate(post.data.pubDate)}</span>
       </div>
-      <p class="post-description">{post.frontmatter.description}</p>
+      <p class="post-description">{post.data.description}</p>
     </li>
   ))}
 </ul>
