@@ -526,7 +526,9 @@ h1.title {
 .meta {
   margin-top: 2rem;
   border: 1px solid var(--gray-333);
+  background-color: var(--gray-111);
   color: var(--gray-666);
+  font-family: monospace;
 }
 
 .meta .general {
