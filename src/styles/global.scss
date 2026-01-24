@@ -313,7 +313,7 @@ nav {
   padding: 10px;
   text-align: center;
   font-weight: 500;
-  border: 1px solid var(--gold);
+  border: 1px solid var(--gray-333);
   text-shadow: var(--gold-glow);
   font-family: "audiowide", Garamond, serif;
 }
@@ -470,13 +470,12 @@ h1.title {
 
 .gallery a {
   display: flex;
-  background-color: var(--gray-333);
-  border: 1px solid var(--gray-ccc);
+  border: 1px solid var(--gray-333);
   padding: 7px;
 }
 
 .gallery a:hover {
-  border-color: var(--white);
+  border-color: var(--gray-666);
 }
 
 /* Sub-pages */
