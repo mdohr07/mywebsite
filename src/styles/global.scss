@@ -18,6 +18,8 @@
   --gold: #c39768;
   --white: #fff;
   --code-color: #F54927;
+
+  --gold-glow: 0 0 12px #c39768;
 }
 
 h1,
@@ -312,6 +314,7 @@ nav {
   text-align: center;
   font-weight: 500;
   border: 1px solid var(--gold);
+  text-shadow: var(--gold-glow);
   font-family: "audiowide", Garamond, serif;
 }
 
