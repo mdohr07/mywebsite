@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Bitter:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -17,7 +17,7 @@
   --gray-efef: #efefef;
   --gold: #c39768;
   --white: #fff;
-  --code-color: #F54927;
+  --code-color: #f54927;
 
   --gold-glow: 0 0 12px #c39768;
 }
@@ -108,7 +108,7 @@ html {
   height: 100%;
   font-size: 1.05rem;
 
-  background-image: url("/img/assets/graphics/backgrounds/071_2.jpg"); // 69, 71, 75
+  background-image: url("/img/assets/graphics/backgrounds/071_2.jpg");
   background-size: contain;
   cursor: url("/img/assets/cursors/mooncursor.gif"), auto;
   font-family: "bitter", serif;
@@ -177,7 +177,7 @@ article h6 {
 }
 
 article p {
-    text-align: justify;
+  text-align: justify;
 }
 
 article blockquote p {
@@ -205,7 +205,6 @@ blockquote p {
   padding: 1rem 2rem;
   border-top: 3px double var(--gray-666);
   border-bottom: 3px double var(--gray-666);
-  
 }
 
 figcaption {
@@ -320,7 +319,7 @@ nav {
 
 nav a img {
   padding: 0;
-  margin:0;
+  margin: 0;
   width: 24px;
   height: 24px;
 }
@@ -344,7 +343,6 @@ nav ul li a:visited {
   color: var(--gold);
   text-decoration: none;
   padding: 0;
-
 }
 
 nav ul li a:hover {
@@ -382,8 +380,8 @@ footer {
 }
 
 h1.title {
-  font-size: clamp(3rem, 9vw, 8rem);
-  font-size: 6rem;
+  font-size: clamp(2rem, 6vw, 5rem);
+  // font-size: 6rem;
   max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -573,7 +571,7 @@ h1.title {
 }
 
 .tag a {
-  text-decoration: none;;
+  text-decoration: none;
 }
 
 /* Post list on tags page */
@@ -638,6 +636,10 @@ li.latest-post-item .post-date {
 }
 
 @media (max-width: 820px) {
+  h1.title {
+    white-space: balance;
+  }
+
   .blog-container {
     background-image: none;
     padding: 1rem;
@@ -707,7 +709,6 @@ li.latest-post-item .post-date {
 }
 
 @media (max-width: 555px) {
-
   .meta-tags {
     flex-direction: column;
     align-items: flex-start;
