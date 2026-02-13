@@ -18,7 +18,7 @@ const formatDate = (pubDate: Date) => {
   <h1>{title}</h1>
   <article lang="de">
     <p class="author">
-      <span class="secondary-text">Verfasst von</span>{author || "Unbekannt"}
+      <span class="secondary-text">Verfasst von</span><span class="authorName">{author || "Unbekannt"}</span>
       <span class="secondary-text">am</span>
       {formatDate(pubDate)}
     </p>
