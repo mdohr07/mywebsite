@@ -1,7 +1,7 @@
 ---
 # Basis-Metadaten
 title: "Logbuch - Stil als Suche, nicht als Ziel"
-description: "..."
+description: "Notizen aus einer kreativen Umlaufbahn: Zeichnen, Spielen, Weltbau und das langsame Wiederfinden einer künstlerischen Richtung."
 pubDate: 2026-02-15
 author: "mdohr"
 
