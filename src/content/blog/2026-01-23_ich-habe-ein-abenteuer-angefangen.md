@@ -19,7 +19,7 @@ tags:
   - journal
   - soloRPG
 
-mood: "inspired"
+mood: "Inspiriert"
 
 # Sonstiges
 music:
