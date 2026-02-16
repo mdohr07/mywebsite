@@ -79,4 +79,4 @@ Mehr Bilder: <a href="https://cara.app/mdohr07/all" target="_blank">cara.app/mdo
 
 ### Aktueller Zustand
 
-Ich springe zwischen den Aktivitäten hin- und her. Zwischen zeichnen, Rollenspiel und Rogue Trader. Was ich dabei an mir selbst beobachte: wie alles zusammenkommt und sich gegenseitig ergänzt. Das ist ein gutes Gefühl. Ich glaube, ich fühle mich künstlerisch gesehen jetzt weniger verloren. Ich bin dabei, meine Stäreken (wieder) zu entdecken. Zwar bin ich noch nicht da, wo ich sein will, aber wann ist man das schon?
+Ich springe zwischen den Aktivitäten hin- und her. Zwischen zeichnen, Rollenspiel und Rogue Trader. Was ich dabei an mir selbst beobachte: wie alles zusammenkommt und sich gegenseitig ergänzt. Das ist ein gutes Gefühl. Ich glaube, ich fühle mich künstlerisch gesehen jetzt weniger verloren. Ich bin dabei, meine Stärken (wieder) zu entdecken. Zwar bin ich noch nicht da, wo ich sein will, aber wann ist man das schon?
