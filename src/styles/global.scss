@@ -176,9 +176,9 @@ article h6 {
   margin-top: 2.5rem;
 }
 
-article p {
-  text-align: justify;
-}
+// article p {
+//   text-align: justify;
+// }
 
 article blockquote p {
   text-align: center;
@@ -196,15 +196,13 @@ article img.full-width {
   width: 100%;
 }
 
-blockquote p {
-  margin: 2rem auto;
-  max-width: 700px;
-  font-family: monospace;
-  line-height: 2.45rem;
+blockquote {
+  line-height: 2rem;
   color: var(--gray-aaa);
-  padding: 1rem 2rem;
-  border-top: 3px double var(--gray-666);
-  border-bottom: 3px double var(--gray-666);
+  text-decoration: ;
+  font-style: italic;
+  padding-left: 1rem;
+  border-left: 4px solid var(--gray-222);
 }
 
 figcaption {
