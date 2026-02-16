@@ -176,9 +176,9 @@ article h6 {
   margin-top: 2.5rem;
 }
 
-// article p {
-//   text-align: justify;
-// }
+article p {
+text-align: left;
+}
 
 article blockquote p {
   text-align: center;
@@ -199,7 +199,6 @@ article img.full-width {
 blockquote {
   line-height: 2rem;
   color: var(--gray-aaa);
-  text-decoration: ;
   font-style: italic;
   padding-left: 1rem;
   border-left: 4px solid var(--gray-222);
