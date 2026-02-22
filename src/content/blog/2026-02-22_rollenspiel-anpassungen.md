@@ -2,7 +2,7 @@
 # Basis-Metadaten
 title: "Vice/Starships - Beobachtungen und Systemupdates"
 description: "Log-Eintrag über die Anpassung von Vice/Starships, die gestrige RPG-Session sowie den aktuellen Stand meiner Umschulung in Code"
-pubDate: 2026-02-15
+pubDate: 2026-02-22
 author: "mdohr"
 
 # Medien
@@ -65,7 +65,7 @@ Es gibt jetzt einen neuen Charakterbogen mit folgenden Änderungen:
   - DRIVE
 - Unausgefüllte Felder wurden nachgetragen
 
-Das Verdienen von XP verläuft normal über Schwellenwerte, in V/S bleiben sie konstant. Ich habe den Schwellenwert durch Generierung und Zusammenrechnung der bisher verdienten XP getestet und für zu niedrig befunden. Darum habe ich den Schwellenwert höher angesetzt.
+Das Verdienen von XP verläuft normal über Schwellenwerte, in V/S bleiben sie konstant. Ich habe den Schwellenwert durch Generierung und Zusammenrechnung der bisher verdienten XP getestet und für zu niedrig befunden. Darum ist der Schwellenwert jetzt höher angesetzt.
 Belohnungen werden dadurch seltener ausgelöst.
 
 ### Gestrige Abend-Session
