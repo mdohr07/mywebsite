@@ -344,6 +344,10 @@ nav ul li a:visited {
   padding: 0;
 }
 
+nav ul li .highlight:first-child {
+  color: var(--code-color);
+}
+
 nav ul li a:hover {
   color: var(--gray-efef);
 }
