@@ -249,6 +249,7 @@ a:visited {
 
 a:hover {
   color: var(--white);
+    transition: ease-in-out 1s;
 }
 
 a,
@@ -346,6 +347,10 @@ nav ul li a:visited {
 
 nav ul li .highlight:first-child {
   color: var(--code-color);
+}
+
+nav ul li .highlight:first-child:hover {
+  color: var(--white);
 }
 
 nav ul li a:hover {
@@ -600,10 +605,13 @@ h1.title {
 .post-date {
   display: block;
   color: var(--gray-666);
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
 }
 
 .post-description {
   margin: 0;
+  padding-top: 0.5rem;
   color: var(--gray-ccc);
 }
 
