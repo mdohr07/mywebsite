@@ -1,6 +1,6 @@
 # Now
 
-+— Last updated: Feb 22nd '26 —+
++— Last updated: Feb 22nd 2026 —+
 
 ※ Currently doing a Frontend Dev internship as a part of my retraing in IT
 
