@@ -1,12 +1,12 @@
 # Now
 
-+— Last updated: Oct 18th '26 —+
++— Last updated: Feb 22nd '26 —+
 
 ※ Currently doing a Frontend Dev internship as a part of my retraing in IT
 
 ## Working on...
 
-- Fat journal setup
+- Vice/Starships RPG & Worldbuilding
 - Brushing up my **Japanese** (kinda)
 - This website, always
 - Getting better at React x TypeScript
@@ -14,6 +14,7 @@
 ## Actively Playing
 
 - [Warhammer 40,000: Rogue Trader](https://roguetrader.owlcat.games/)
+- Vice/Starships
 
 ## Listening to
 
