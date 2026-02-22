@@ -312,6 +312,7 @@ nav {
   border: 1px solid var(--gray-333);
   text-shadow: var(--gold-glow);
   font-family: "audiowide", Garamond, serif;
+  text-transform: uppercase;
 }
 
 nav a img {
@@ -496,10 +497,6 @@ h1.title {
 
 /* Blog */
 .blog-container {
-  background-image: url("/img/assets/graphics/fairy.png");
-  background-position: top right;
-  background-repeat: no-repeat;
-  background-size: 100px;
   width: 100%;
   margin: 0 auto;
   padding: 0rem;
