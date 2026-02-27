@@ -212,28 +212,18 @@ figcaption {
   color: var(--gray-aaa);
 }
 
-.random-quote {
-  background-color: transparent;
-  border: none;
-  margin: 2rem auto;
-  max-width: 600px;
-  font-style: italic;
-  text-align: center;
-}
-
 .random-quote blockquote {
   background-color: transparent;
   border: none;
-  font-size: xx-large;
-  font-weight: 600;
-  quotes: "“" "”" "‘" "’";
+  font-size: x-large;
+  font-weight: 300;
+ text-align: center;
 }
 
 .random-quote figcaption {
   margin-top: 0.5rem;
   font-size: 0.9rem;
   font-style: normal;
-  text-align: right;
   color: var(--gray-aaa);
 }
 
@@ -388,7 +378,7 @@ footer {
 }
 
 h1.title {
-  font-size: clamp(2rem, 6vw, 5rem);
+  letter-spacing: 1rem;
   max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
