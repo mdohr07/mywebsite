@@ -14,7 +14,7 @@ image:
 tags:
   - persönlich
   - reflexion
-  - soloRPG
+  - projekt
 
 mood: "erschöpft"
 
