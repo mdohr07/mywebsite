@@ -18,9 +18,12 @@
   --gold: #c39768;
   --white: #fff;
   --code-color: #f54927;
+  --orange-ish: #c63;
+  --dark-red: #14090a;
 
   --gold-glow: 0 0 12px #c39768;
 }
+
 h1 {
   font-family: "audiowide", Garamond, serif;
 }
@@ -187,8 +190,8 @@ blockquote {
 }
 
 blockquote.consoleDisplay {
-  color: #c63;
-  background-color: #14090a;
+  color: var(--orange-ish);
+  background-color: var(--dark-red);
   font-family: monospace;
   border: none;
   padding: 1rem;
